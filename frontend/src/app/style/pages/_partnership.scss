@@ -1,0 +1,91 @@
+.localhost {
+  // Partnership
+  &-partnership {
+    &-heading {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+
+      @include tablet {
+        grid-template-columns: 0.5fr 0.5fr 1fr;
+      }
+
+      @include mobile {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      @include mobileMin {
+        max-width: 100%;
+      }
+
+      &-cell {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        height: 100px;
+        background: var(--gray197-black26);
+        border-radius: 20px;
+        overflow: hidden;
+
+        &:nth-child(3) {
+          @include mobile {
+            grid-column: 1 / 3;
+          }
+
+          br {
+            display: block;
+          }
+
+          svg {
+            width: auto;
+            right: -45px;
+            height: 70px;
+
+            @include tabletMin {
+              right: 0;
+            }
+          }
+        }
+
+        &__title {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 20px;
+
+          @include tabletMin {
+            font-size: 18px;
+          }
+
+          br {
+            display: none;
+
+            @include tablet {
+              display: block;
+            }
+          }
+
+          span {
+            font-weight: 700;
+          }
+        }
+
+        svg {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: -15px;
+          width: 60px;
+          height: 60px;
+          fill: var(--gray64-white);
+        }
+      }
+    }
+
+    // &-content {
+    // }
+  }
+}

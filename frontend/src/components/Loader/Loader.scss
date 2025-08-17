@@ -1,0 +1,108 @@
+.loader-container {
+  --loader-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: var(--loader-height);
+}
+
+.loader {
+  --loader-size: 3rem; 
+  --loader-border-width: calc(var(--loader-size) / 6); 
+  --loader-color: var(--brown-gold); 
+  --loader-secondary-color: var(--dies); 
+
+  position: relative;
+  width: var(--loader-size);
+  height: var(--loader-size);
+  border: var(--loader-border-width) solid var(--loader-secondary-color);
+  border-top: var(--loader-border-width) solid var(--loader-color);
+  border-radius: 50%;
+  animation: spin 1.5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: border-top-color 0.3s ease;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+
+  &:hover {
+    border-top-color: var(--dies);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+  }
+}
+
+.loader::after {
+  content: '';
+  position: absolute;
+  top: calc(-var(--loader-border-width) / 2);
+  left: calc(-var(--loader-border-width) / 2);
+  width: 100%;
+  height: 100%;
+  border: calc(var(--loader-border-width) / 2) solid rgba(0, 0, 0, 0.05);
+  border-top: calc(var(--loader-border-width) / 2) solid var(--loader-color);
+  border-radius: 50%;
+  animation: spin 3s linear infinite reverse;
+  opacity: 0.6;
+}
+
+.loader-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 60%;
+  background: var(--loader-color);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+  animation: pulse 2s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.8;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .loader {
+    --loader-size: 2rem;
+    --loader-border-width: calc(var(--loader-size) / 6);
+  }
+}
+
+@media (min-width: 1200px) {
+  .loader {
+    --loader-size: 4rem;
+    --loader-border-width: calc(var(--loader-size) / 6);
+  }
+}

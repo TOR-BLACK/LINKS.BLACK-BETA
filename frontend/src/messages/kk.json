@@ -1,0 +1,215 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "Тауарларды сатып алу немесе басқа қосымша ақпарат алу үшін бізге жазыңыз.",
+      "salesDepartmentButton": "Сатылым бөлімі",
+      "employmentDepartmentButton": "Жұмысқа орналасу бөлімі",
+      "supportButton": "Оператормен чат"
+    },
+    "headerNav": {
+      "home": "Басты бет",
+      "retail": "Розница",
+      "wholesale": "Опт",
+      "work": "Жұмыс",
+      "partnership": "Серіктестік",
+      "faq": "FAQ",
+      "contacts": "Байланыстар",
+      "menuButton": "Мәзір",
+      "mirrors": "Айна",
+      "telegramButton": "Telegram"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "Сатып алушыларға",
+      "retail": "Розница",
+      "wholesale": "Опт",
+      "contacts": "Байланыстар"
+    },
+    "partnershipBlock": {
+      "title": "Ынтымақтастық",
+      "vacancies": "Бос жұмыс орындары",
+      "partnership": "Серіктестік",
+      "contacts": "Байланыстар",
+      "managers": "Da Vinci басшылығымен байланысу"
+    },
+    "informationBlock": {
+      "title": "Ақпарат",
+      "rulesAndPolicies": "Ресурс ережелері мен саясаты",
+      "team": "Команда",
+      "faq": "Жиі қойылатын сұрақтар"
+    },
+    "copyright": "© 2017-2025 Da Vinci WebGram Market. Барлық құқықтар қорғалған."
+  },
+  "HomePage": {
+    "mainInfo": "- бұл біздің тауарлардың бөлшек сатылымын қамтиды. Сіздің жайлылығыңыз үшін біз бірнеше платформаларда жайғасқанбыз.",
+    "cards": {
+      "button": "Өту"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "Опт",
+    "headingInfo": "Ақпарат, бағалық тізім және тауарлардың ағымдағы қолжетімділігін алу үшін өңірді таңдаңыз.",
+    "countries": {
+      "allCountries": "Барлық елдер"
+    },
+    "links": {
+      "excel": "Excel кестесін жүктеп алу",
+      "copy": "Кестені көшіру"
+    },
+    "checkboxes": {
+      "selectAll": "Барлығын таңдау"
+    },
+    "filters": {
+      "in_stock": "Қоймада бар",
+      "preorder": "Алдын ала тапсырыс"
+    },
+    "functions": {
+      "price": "Бағасы",
+      "collapse": "Жабу",
+      "buy": "Сатып алу"
+    },
+    "year": "ж.",
+    "weight": "гр",
+    "items": {
+      "searchPlaceholder": "Қала атауы",
+      "notFound": "Ештеңе табылмады, бірақ жақында жеткіземіз!",
+      "success": "Кесте сәтті көшірілді!",
+      "download": "Файл жүктелуде...",
+      "lastUpdate": "Жаңартылды",
+      "bbcode": "BB-код"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "Ең жоғары жалақы мен жылдам мансаптық өсу үшін командаға қабылдаймыз.",
+    "breadcrumbs": "Жұмыс",
+    "filters": {
+      "all": "Барлық бос жұмыс орындары",
+      "offline": "Офлайн",
+      "online": "Онлайн",
+      "no_experience": "Тәжірибесіз"
+    },
+    "buttons": {
+      "response": "Вакансияға жауап беру",
+      "calculator": "Табыс калькуляторы",
+      "MoreDetails": "Толығырақ",
+      "Hide": "Жасыру"
+    },
+    "salary": {
+        "from": "Айына",
+        "perMonth": "бастап"
+    }
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "Серіктестік",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "жыл",
+        "afterBrText": "нарықта"
+      },
+      "second": {
+        "markered": "1 500 000+",
+        "afterBrText": "сату"
+      },
+      "third": {
+        "markered": "Дәрежелік жеткізу",
+        "afterBrText": "барлық РФ мен ТМД бойынша"
+      }
+    },
+    "items": {
+      "button": "Бізбен байланысу",
+      "MoreDetails": "Толығырақ",
+      "Hide": "Жасыру"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "FAQ",
+    "heading": "Часто задаваемые вопросы (FAQ)",
+    "info": "Da Vinci-ден ыңғайлы жұмыс үшін құралдар"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "Байланыстар",
+    "heading": "Тауарларды сатып алу немесе басқа қосымша ақпарат алу үшін бізге жазыңыз.",
+    "sales": "Сатылым бөлімі",
+    "work": "Жұмысқа орналасу бөлімі",
+    "info": "Сіз Da Vinci басшылығымен тікелей сату бөлімі арқылы байланыса аласыз. Егер сіздің байланысу себептеріңіз орынды деп танылса, сату бөлімі басшылықпен байланысыңызды ұйымдастырады.",
+    "elementbutton": "Element аккаунтыңыз жоқ па? Аккаунт құру"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "Айна",
+    "heading": "Негізгі сілтеме жұмыс істемеген жағдайда, біздің резервтік сілтемелерді сақтаңыз.",
+    "button": "Өту",
+    "copied": "Көшірілді"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "Төмендегі анкетаны толтырыңыз, және біз автоматты түрде сізбен байланысамыз!",
+    "breadcrumbs": {
+      "first": "Жұмыс",
+      "second": "Анкета"
+    },
+    "result": {
+      "success": "Өтінішіңіз үшін рақмет! Біз сіздің формаңызды алдық және жақында сізбен байланысамыз.",
+      "error": "Форманы жіберу кезінде қате болды. Барлық міндетті өрістердің толтырылғанына көз жеткізіңіз және қайтадан көріп шығыңыз."
+    },
+    "form": {
+      "select": "Вакансияны таңдаңыз",
+      "city": "Қаланы көрсетіңіз",
+      "drivingLicence": "Жүргізуші құқығы:",
+      "yes": "Иә",
+      "no": "Жоқ",
+      "ownTransport": "Жеке көлікті:",
+      "contact": "Байланыс сілтемесі",
+      "moving": "Көшуге дайынсыз ба?",
+      "deposit": "Депозитпен",
+      "documents": "Құжаттар бойынша",
+      "send": "Анкетаны жіберу"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "Жұмыс",
+      "second": "Калькулятор"
+    },
+    "form": {
+      "numberOfDeliveries": "Күнделікті жеткізілім саны:",
+      "numberOfWorkingDays": "Айдағы жұмыс күндерінің саны:",
+      "depositAmount": "Сіздің депозитіңіздің сомасы:",
+      "cashAmount": "Сіздің қолма-қол ақшаның сомасы:",
+      "moving": {
+        "title": "Көшуге дайынсыз ба?",
+        "first": "Москва",
+        "second": "Шығыс, Қырым, Солтүстік Кавказ",
+        "third": "Басқа қалалар"
+      },
+      "packingType": {
+        "title": "Фасовка түрі",
+        "first": "Фасовка 1",
+        "second": "Фасовка 2",
+        "third": "Фасовка 3"
+      },
+      "sendingType": {
+        "title": "Жіберу түрі:",
+        "first": "Атпен",
+        "second": "Курьермен"
+      },
+      "receiptType": {
+        "title": "Қалай аласыз:",
+        "first": "Қолмен",
+        "second": "Почта арқылы"
+      },
+      "currency": "₽",
+      "quantity": "дан.",
+      "amountSum": "Жалпы сома",
+      "deliverySum": "Жеткізілім саны",
+      "button": "Есептеу"
+    }
+  },
+  "NotFound": {
+    "message": "404 - Бет табылмады"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "Ережелер және ресурс саясаты",
+    "heading": "Ережелер және ресурс саясаты"
+  }
+}

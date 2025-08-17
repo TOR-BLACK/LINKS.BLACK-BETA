@@ -1,0 +1,52 @@
+.localhost-privacy-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+    color: var(--accent-1);
+  }
+  
+ 
+  
+  .localhost-privacy-heading-cell {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    background: #222;
+    border-radius: 10px;
+    // text-align: center;
+    color: white;
+  }
+  
+  .localhost-privacy-heading-cell svg {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .localhost-privacy-content {
+    padding: 25px;
+    background: var(--dies);
+    font-size: 20x;
+    border-radius: 10px;
+    color: var(--text);
+    &_heading{
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--accent-1);
+    }
+    &_text{
+      
+    }
+  }
+  
+  .localhost-privacy-content h2, 
+  .localhost-privacy-content h3 {
+    color: var(--accent-1);
+  }
+  
+  .localhost-privacy-content p {
+    margin-bottom: 10px;
+  }
+  

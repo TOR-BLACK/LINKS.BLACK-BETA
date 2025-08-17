@@ -1,0 +1,216 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "Məhsulları satın almaq və ya əlavə məlumat üçün bizimlə əlaqə saxlayın.",
+      "salesDepartmentButton": "Satış Departamenti",
+      "employmentDepartmentButton": "İşə Qəbul Departamenti",
+      "supportButton": "Operatorla çat"
+    },
+    "headerNav": {
+      "home": "Əsas",
+      "retail": "Pərakəndə",
+      "wholesale": "Topdan",
+      "work": "İş",
+      "partnership": "Tərəfdaşlıq",
+      "faq": "FAQ",
+      "contacts": "Əlaqələr",
+      "menuButton": "Menyu",
+      "mirrors": "Güzgülər",
+      "telegramButton": "Telegram"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "Alıcılar üçün",
+      "retail": "Pərakəndə",
+      "wholesale": "Topdan",
+      "contacts": "Əlaqələr"
+    },
+    "partnershipBlock": {
+      "title": "Birgə İş",
+      "vacancies": "Vəzifələr",
+      "partnership": "Tərəfdaşlıq",
+      "contacts": "Əlaqələr",
+      "managers": "Da Vinci rəhbərliyi ilə əlaqə saxlayın"
+    },
+    "informationBlock": {
+      "title": "Məlumat",
+      "rulesAndPolicies": "Qayda və siyasətlər",
+      "team": "Komanda", 
+      "faq": "Tez-tez verilən suallar"
+    },
+    "copyright": "© 2017-2025 Da Vinci WebGram Market. Bütün hüquqlar qorunur."
+  },
+  "HomePage": {
+    "mainInfo": "- bu, bizim məhsullarımızın pərakəndə satışını da əhatə edir. Rahatlığınız üçün fərqli platformalarda yerləşmişik.",
+    "cards": {
+      "button": "Keçmək"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "Topdan",
+    "headingInfo": "Məlumat, qiymət siyahısı və cari mal mövcudluğunu almaq üçün bölgəni seçin.",
+    "countries": {
+      "allCountries": "Bütün ölkələr"
+    },
+    "links": {
+      "excel": "Excel cədvəlini yükləyin",
+      "copy": "Cədvəli kopyalayın"
+    },
+    "checkboxes": {
+      "selectAll": "Hamısını seç"
+    },
+    "filters": {
+      "in_stock": "Anbarda var",
+      "preorder": "Əvvəlcədən sifariş"
+    },
+    "functions": {
+      "price": "Qiymət",
+      "collapse": "Qatla",
+      "buy": "Almaq"
+    },
+    "year": "il",
+    "weight": "q",
+    "items": {
+      "searchPlaceholder": "Şəhər adı",
+      "notFound": "Heç nə tapılmadı, amma tezliklə gətirəcəyik!",
+      "success": "Cədvəl uğurla kopyalandı!",
+      "download": "Fayl yüklənir...",
+      "lastUpdate": "Yenilənib",
+      "bbcode": "BB-kod"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "Komandamızda ən yüksək maaş və sürətli karyera yüksəlişi üçün işçi axtarırıq.",
+    "breadcrumbs": "İş",
+    "filters": {
+      "all": "Bütün vəzifələr",
+      "offline": "Ofisdə",
+      "online": "Onlayn",
+      "no_experience": "Təcrübəsiz"
+    },
+    "buttons": {
+      "response": "Vakansiyaya müraciət etmək",
+      "calculator": "Gəlir kalkulyatoru",
+      "MoreDetails": "Ətraflı",
+      "Hide": "Gizlət"
+    },
+    "salary": {
+        "from": "dən",
+        "perMonth": "ayda"
+    }
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "Tərəfdaşlıq",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "il",
+        "afterBrText": "bazarda"
+      },
+      "second": {
+        "markered": "1 500 000+",
+        "afterBrText": "satış"
+      },
+      "third": {
+        "markered": "Sistemli çatdırılma",
+        "afterBrText": "bütün RF və MDB üzrə"
+      }
+    },
+    "items": {
+      "button": "Bizimlə əlaqə",
+      "MoreDetails": "Ətraflı",
+      "Hide": "Gizlət"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "FAQ",
+    "heading": "Tez-tez verilən suallar (FAQ)",
+    "info": "Da Vinci tərəfindən rahat iş üçün vasitələr"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "Əlaqələr",
+    "heading": "Məhsulları satın almaq və ya əlavə məlumat üçün bizimlə əlaqə saxlayın.",
+    "sales": "Satış Departamenti",
+    "work": "İşə Qəbul Departamenti",
+    "info": "Siz Da Vinci rəhbərliyi ilə birbaşa satış şöbəsi vasitəsilə əlaqə saxlaya bilərsiniz. Əgər sizin əlaqə saxlama səbəbləriniz əsaslı hesab edilərsə, satış şöbəsi rəhbərliklə əlaqənizi təşkil edəcək.",
+    "elementbutton": "Element hesabınız yoxdur? Hesab yaradın"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "Güzgü",
+    "heading": "Əsas bağlantılarımızı yadda saxlayın, əgər əsas işləmir.",
+    "button": "Keçmək",
+    "copied": "Köçürüldü"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "Aşağıdakı formu doldurun və biz avtomatik olaraq sizinlə əlaqə saxlayacağıq!",
+    "breadcrumbs": {
+      "first": "İş",
+      "second": "Anket"
+    },
+    "result": {
+      "success": "Müraciətiniz üçün təşəkkür edirik! Formanızı aldıq və yaxın zamanda sizinlə əlaqə saxlayacağıq.",
+      "error": "Formanın göndərilməsi zamanı xəta baş verdi. Zəhmət olmasa, bütün tələb olunan sahələrin doldurulduğuna əmin olun və yenidən cəhd edin."
+    },
+    "form": {
+      "select": "Vəzifəni seçin",
+      "city": "Şəhəri göstərin",
+      "drivingLicence": "Sürücülük vəsiqəsi:",
+      "yes": "Bəli",
+      "no": "Xeyr",
+      "ownTransport": "Şəxsi nəqliyyat:",
+      "contact": "Əlaqə linki",
+      "moving": "Köçməyə hazırsınız?",
+      "deposit": "Depozitlə",
+      "documents": "Sənədlərlə",
+      "send": "Anketi göndərin"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "İş",
+      "second": "Kalkulyator"
+    },
+    "form": {
+      "numberOfDeliveries": "Gündə 1 çatdırılma sayı:",
+      "numberOfWorkingDays": "Ayda iş günü sayı:",
+      "depositAmount": "Sizin depozit məbləği:",
+      "cashAmount": "Sizin nağd məbləğiniz:",
+      "moving": {
+        "title": "Köçməyə hazırsınız?",
+        "first": "Moskva",
+        "second": "Uzaq Şərq, Krım, Şimali Qafqaz",
+        "third": "Digər şəhərlər"
+      },
+      "packingType": {
+        "title": "Paketin növü",
+        "first": "Paket növü 1",
+        "second": "Paket növü 2",
+        "third": "Paket növü 3"
+      },
+      "sendingType": {
+        "title": "Göndərmə növü:",
+        "first": "Atla",
+        "second": "Bülbül ilə"
+      },
+      "receiptType": {
+        "title": "Necə alırsınız:",
+        "first": "Əl ilə",
+        "second": "Poçtla"
+      },
+      "currency": "₽",
+      "quantity": "əd.",
+      "amountSum": "Ümumi məbləğ",
+      "deliverySum": "Çatdırılmaların sayı",
+      "button": "Hesablamaq"
+    }
+  },
+  "NotFound": {
+    "message": "404 - Səhifə tapılmadı"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "Qaydalar və Resurs Siyasəti",
+    "heading": "Qaydalar və Resurs Siyasəti"
+  }
+}
+

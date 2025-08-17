@@ -1,0 +1,160 @@
+svg {
+  flex: 0 0 auto;
+
+  &.carriage {
+    &-top {
+      fill: #5b431e;
+      transform: rotate(90deg);
+    }
+
+    &-right {
+      fill: #5b431e;
+      transform: rotate(180deg);
+    }
+
+    &-bottom {
+      fill: #5b431e;
+      transform: rotate(270deg);
+    }
+
+    &-left {
+      fill: #5b431e;
+    }
+  }
+
+  &.icon-check {
+    stroke: var(--accent-1);
+  }
+
+  &.icon-input {
+    fill: #616161;
+  }
+
+  &.copy {
+    &-1 {
+      fill: #3d3d3d;
+    }
+
+    &-2 {
+      fill: #ffbe5a;
+    }
+  }
+
+  &.cursor {
+    &-click {
+      width: 16px;
+      height: 16px;
+      fill: var(--text);
+    }
+  }
+
+  &.chat {
+    fill: #404040;
+  }
+
+  &.gear {
+    fill: #404040;
+  }
+
+  &.handshake {
+    fill: #404040;
+  }
+
+  &.home {
+    fill: #404040;
+  }
+
+  &.bag {
+    fill: #404040;
+  }
+
+  &.wholesale {
+    fill: #404040;
+  }
+
+  &.diplomat {
+    fill: #404040;
+  }
+
+  &.mirror {
+    width: 18px;
+    height: 18px;
+    fill: var(--accent-1);
+  }
+
+  &.languages {
+    width: 18px;
+    height: 18px;
+    fill: var(--accent-1);
+  }
+
+  // Logo
+  &.logo {
+    width: 140px;
+    height: 40px;
+    fill: var(--logo-1);
+
+    @include tablet {
+      fill: var(--brown-white);
+    }
+  }
+
+  &.plug {
+    width: 32px;
+    height: 32px;
+    fill: var(--accent-1);
+  }
+
+  // Theme
+  &.theme {
+    &-light {
+      width: 18px;
+      height: 18px;
+      fill: #111111;
+    }
+
+    &-dark {
+      width: 16px;
+      height: 16px;
+      fill: var(--accent-1);
+    }
+  }
+
+  // Social network
+  &.telegram {
+    width: 16px;
+    height: 16px;
+    fill: white;
+
+    &-filling {
+      fill: #404040;
+    }
+  }
+
+  &.element {
+    width: 19px;
+    height: 19px;
+    fill: #404040;
+  }
+
+  &.session {
+    width: 19px;
+    height: 19px;
+    fill: #404040;
+  }
+
+  // Svg images
+  &.loupe,
+  &.currency,
+  &.discount {
+    width: 200px;
+    height: 200px;
+    fill: var(--gray220-black16);
+    stroke: var(--gray220-black16);
+  }
+
+  &.delivery {
+    fill: #404040;
+    stroke: #404040;
+  }
+}

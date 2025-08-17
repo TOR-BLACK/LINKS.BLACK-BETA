@@ -1,0 +1,130 @@
+version: "3.7"
+
+services:
+
+  postgres:
+    build:
+      context: .
+      dockerfile: ./etc/compose/postgres/Dockerfile
+    image: dvi/postgres:latest
+    restart: unless-stopped
+    volumes:
+      - ./mounts/postgres/pg_data:/var/lib/postgresql/data
+      - ./mounts/postgres/backups:/backups
+      - ./mounts/postgres/logs:/var/log/postgresql
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    ports:
+      - "5432:5432"
+    networks:
+      - dvi-backend-network
+
+  django_backend:
+    build:
+      context: .
+      dockerfile: ./etc/compose/src/Dockerfile
+    image: dvi/django-backend:latest
+    restart: unless-stopped
+    command: >
+      sh -c "python manage.py collectstatic --noinput &&
+             python manage.py migrate &&
+             gunicorn -b 0.0.0.0 core.wsgi:application --reload"
+    expose:
+      - 8000
+    depends_on:
+      - postgres
+      - redis
+    env_file:
+      - .env
+    volumes:
+      - ./src:/src
+      - ./mounts/src/logs:/src/logs
+      - ./mounts/src/static:/src/static
+      - ./mounts/src/media:/src/media
+    cap_add:
+      - ALL
+    networks:
+      - dvi-backend-network
+  redis:
+    image: redis:alpine
+    hostname: redis
+    expose:
+      - 6379
+    networks:
+      - dvi-backend-network
+
+  celery_default_worker:
+    image: dvi/django-backend:latest
+    restart: unless-stopped
+    command: celery -A core worker -Q default -l INFO -n default
+    depends_on:
+      - django_backend
+      - postgres
+      - redis
+    env_file:
+      - .env
+    volumes:
+      - ./src:/src
+      - ./mounts/src/logs:/src/logs
+      - ./mounts/src/media:/src/media
+    networks:
+      - dvi-backend-network
+
+  celery_parse_product_worker:
+    image: dvi/django-backend:latest
+    restart: unless-stopped
+    command: celery -A core worker -Q parse_product -l INFO -n parse_product
+    depends_on:
+      - django_backend
+      - postgres
+      - redis
+    env_file:
+      - .env
+    volumes:
+      - ./src:/src
+      - ./mounts/src/logs:/src/logs
+      - ./mounts/src/media:/src/media
+    networks:
+      - dvi-backend-network
+
+  celery_translate_service_worker:
+    image: dvi/django-backend:latest
+    restart: unless-stopped
+    command: celery -A core worker -Q translate_service -l INFO -n translate_service
+    depends_on:
+      - django_backend
+      - postgres
+      - redis
+    env_file:
+      - .env
+    volumes:
+      - ./src:/src
+      - ./mounts/src/logs:/src/logs
+      - ./mounts/src/media:/src/media
+    networks:
+      - dvi-backend-network
+
+  nginx:
+    build:
+      context: .
+      dockerfile: ./etc/compose/nginx/Dockerfile
+    image: dvi/nginx:latest
+    restart: unless-stopped
+    ports:
+      - "8805:80"
+    depends_on:
+      - django_backend
+    volumes:
+      - ./mounts/nginx/logs:/var/log/nginx
+      - ./mounts/src/static:/var/www/html/static:ro
+      - ./mounts/src/media:/var/www/html/media:ro
+    networks:
+      - dvi-backend-network
+
+networks:
+  dvi-backend-network:
+    driver: bridge

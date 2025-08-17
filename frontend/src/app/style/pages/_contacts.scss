@@ -1,0 +1,212 @@
+.localhost {
+  // Contacts
+  &-contacts {
+    &-heading {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      &__info {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.22;
+        text-align: center;
+        &_button{
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 1.22;
+          color: var(--accent-1);
+          text-decoration: underline;
+          cursor: pointer;
+          transition: color 0.3s ease;
+          
+          &:hover {
+            color: var(--accent-2);
+          }
+        }
+      }
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      &__heading {
+        @include h2;
+        text-transform: uppercase;
+        color: var(--accent-1);
+        text-align: center;
+      }
+
+      &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .h2 {
+          @include h2(true);
+          color: var(--accent-1);
+          text-align: center;
+        }
+      }
+    }
+
+    &-card {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px 30px;
+      min-height: 163px;
+      background: var(--dies);
+      border-radius: 20px;
+      justify-items: center;
+
+      @include mobile {
+        flex-direction: column;
+      }
+
+      &-employee {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+
+        &__avatar {
+          width: 100px;
+          height: 100px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+          }
+        }
+
+        &__name {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 1.22;
+          text-align: center;
+        }
+      }
+
+      &__links {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+        width: 100%;
+
+        &_2{
+          display: grid;
+          grid-template-columns: repeat(2, 2fr);
+          gap: 20px;
+          width: 100%;
+          @include tabletMin {
+            grid-template-columns: repeat(2, 1fr);
+          }
+  
+          @include mobile {
+            grid-template-columns: 1fr;
+          }
+        }
+
+        @include tabletMin {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include mobile {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      &-link {
+        display: flex;
+        
+        flex-direction: column;
+        gap: 10px;
+        overflow: hidden;
+
+        &__info {
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          
+          a {
+            &.inactive {
+              pointer-events: none;
+            }
+
+            &:hover {
+              color: var(--accent-2);
+            }
+          }
+        }
+
+        &__wrapper {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          svg {
+            width: 18px;
+            height: 18px;
+            fill: var(--text);
+          }
+        }
+
+        &__name {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 1.22;
+        }
+
+        &__element {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 7px 10px;
+          gap: 10px;
+          height: 35px;
+          color: var(--gray220-black16);
+          background: var(--accent-1);
+          border-radius: 20px;
+          transition: $transition;
+
+          @include mobile {
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          span {
+            @include text-m;
+          }
+
+          .button {
+            &-copy {
+              z-index: 2;
+
+              svg {
+                width: 19px;
+                height: 19px;
+                fill: var(--accent-2);
+                transition: $transition;
+
+                &:hover {
+                  fill: var(--gold176-brown46);
+                }
+
+                &.icon-check {
+                  stroke: var(--gray220-black16);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

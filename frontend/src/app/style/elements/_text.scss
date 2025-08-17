@@ -1,0 +1,71 @@
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+@mixin text-styles($size, $weight: 400) {
+  font: {
+    weight: $weight;
+    size: $size;
+  }
+
+  line-height: 1.22;
+}
+
+@mixin text($size, $weight: 400) {
+  @include text-styles($size, $weight);
+
+  &.bold {
+    font-weight: 700;
+  }
+}
+
+@mixin text-m {
+  @include text(16px);
+
+  @include tablet {
+    font-size: 14px;
+  }
+}
+
+@mixin text-s {
+  @include text(12px);
+
+  &.bold {
+    font-weight: 700;
+  }
+}
+
+@mixin text-xs {
+  @include text(10px);
+}
+
+@mixin apply-text-styles {
+  .text-m {
+    @include text-m;
+  }
+
+  .text-s {
+    @include text-s;
+
+    &.bold {
+      font-weight: 700;
+    }
+  }
+
+  .text-xs {
+    @include text-xs;
+  }
+}
+
+@include apply-text-styles;
+
+p,
+ul,
+ol {
+  @include list-reset;
+}

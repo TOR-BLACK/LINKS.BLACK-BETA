@@ -1,0 +1,92 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 0;
+  padding: 20px 0;
+
+  @include tablet {
+    padding: 20px 50px 100px;
+  }
+
+  @include tabletMin {
+    padding: 20px 30px 100px;
+  }
+
+  @include mobile {
+    padding: 20px 20px 100px;
+  }
+
+  @include mobileMin {
+    padding: 10px 10px 100px;
+  }
+
+  &__container {
+    @include container;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    &__top {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+
+      @include mobile {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }
+
+  &__logo {
+    svg {
+      width: 140px;
+      height: 40px;
+      fill: var(--gray64-white);
+      transition: $transition;
+
+      &:hover {
+        fill: var(--brown-gold);
+      }
+    }
+  }
+
+  &__info {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+
+    @include mobileMin {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  &-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &__title {
+      @include h3;
+    }
+
+    &__links {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    &__link {
+      @include text-xs;
+      align-self: flex-start;
+
+      &:hover {
+        color: var(--accent-1);
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@mixin heading($size, $weight, $line-height, $uppercase: false) {
+  font: {
+    size: $size;
+    weight: $weight;
+  }
+
+  line-height: $line-height;
+  margin: 0;
+
+  @if $uppercase {
+    text-transform: uppercase;
+
+    @include desctop {
+      font-size: 15px;
+    }
+
+    @include mobile {
+      font-size: 12px;
+    }
+  }
+}
+
+@mixin h1 {
+  @include heading(24px, 700, 1.22);
+
+  @include tabletMin {
+    font-size: 20px;
+  }
+
+  @include mobile {
+    font-size: 18px;
+  }
+}
+
+@mixin h2($uppercase: false) {
+  @include heading(18px, 700, 1.22, $uppercase);
+
+  @include desctop {
+    font-size: 16px;
+  }
+}
+
+@mixin h3 {
+  @include heading(12px, 700, 1.22);
+}
+
+@mixin apply-heading-styles {
+  h1,
+  .h1 {
+    @include h1;
+  }
+
+  h2,
+  .h2 {
+    @include h2;
+  }
+  
+  h3,
+  .h3 {
+    @include h3;
+  }
+}
+
+@include apply-heading-styles;

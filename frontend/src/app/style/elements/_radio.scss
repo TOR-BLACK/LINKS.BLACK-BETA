@@ -1,0 +1,89 @@
+.radio {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  &.column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  &__wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 8px 8px 8px 25px;
+    font: {
+      size: 14px;
+      weight: 500;
+    }
+    line-height: 1.22;
+    transition: $transition;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--accent-1);
+
+      input {
+        & ~ .radio {
+          &__checkmark {
+            border: 1px solid var(--accent-1);
+          }
+        }
+      }
+    }
+
+    input {
+      display: none;
+      transition: $transition;
+
+      &:checked {
+        & + .radio {
+          &__checkmark {
+            & + span {
+              color: var(--accent-1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__checkmark {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background: transparent;
+    border: 1px solid var(--text);
+    border-radius: 50%;
+
+    &::after {
+      content: "";
+      display: flex;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: var(--accent-1);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: $transition;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    input:checked ~ &::after {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  }
+}
+
+.radio__wrapper input:checked + .radio__checkmark {
+  color: red;
+}

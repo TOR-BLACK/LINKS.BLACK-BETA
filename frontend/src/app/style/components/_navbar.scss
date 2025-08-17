@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 20px 100px;
+  box-sizing: border-box;
+  position: relative;
+  font: 10;
+
+  &-menu {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    @include tablet {
+      display: none;
+    }
+
+    &-ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      justify-content: space-evenly; 
+      gap: 25px; 
+      flex-wrap: nowrap;
+
+      &__li {
+        text-align: center;
+        font-size: clamp(14px, 1.2vw, 16px);
+        font-weight: 500;
+        line-height: 1.2;
+        white-space: inherit;
+        color: var(--white-black16);
+
+        &.active {
+          color: var(--gold-brown);
+          font-weight: 900;
+        }
+
+        a {
+          display: block;
+          padding: 0 5px; 
+          color: inherit;
+          &:hover {
+            color: var(--gold-brown);
+          }
+        }
+      }
+    }
+  }
+
+  &-icons {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+}

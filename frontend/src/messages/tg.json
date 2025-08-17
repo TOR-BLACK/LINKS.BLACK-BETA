@@ -1,0 +1,214 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "Товар сатып алу яки башка өстәмә мәгълүмат алу өчен безгә языгыз.",
+      "salesDepartmentButton": "Сатыш бүлеге",
+      "employmentDepartmentButton": "Эшкә алу бүлеге",
+      "supportButton": "Чат бо оператор"
+    },
+    "headerNav": {
+      "home": "Баш бит",
+      "retail": "Розница",
+      "wholesale": "Опт",
+      "work": "Эш",
+      "partnership": "Партнёрлык",
+      "faq": "FAQ",
+      "contacts": "Контактлар",
+      "menuButton": "Меню",
+      "mirrors": "Көмешләр",
+      "telegramButton": "Telegram"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "Сатып алучыларга",
+      "retail": "Розница",
+      "wholesale": "Опт",
+      "contacts": "Контактлар"
+    },
+    "partnershipBlock": {
+      "title": "Хезмәттәшлек",
+      "vacancies": "Вакансияләр",
+      "partnership": "Партнёрлык",
+      "contacts": "Контактлар",
+      "managers": "Бо роҳбарияти Da Vinci тамос гиред"
+    },
+    "informationBlock": {
+      "title": "Мәгълүмат",
+      "rulesAndPolicies": "Ресурс кагыйдәләре һәм политикасы",
+      "team": "Команда",
+      "faq": "Саволҳои маъмул"
+    },
+    "copyright": "© 2017-2025 Da Vinci WebGram Market. Барлык хокуклар сакланган."
+  },
+  "HomePage": {
+    "mainInfo": "- безнең товарларыбызны розница сату да керә. Сезнең уңайлыгыгыз өчен без төрле мәйданнарда урнашканбыз.",
+    "cards": {
+      "button": "Үтә"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "Опт",
+    "headingInfo": "Товарлар турында мәгълүмат, прайс-лист һәм актуаль товар запасы алу өчен регионны сайлагыз.",
+    "countries": {
+      "allCountries": "Барлык илләр"
+    },
+    "links": {
+      "excel": "Excel таблицасын йөклә",
+      "copy": "Таблицаны күчер"
+    },
+    "checkboxes": {
+      "selectAll": "Барсын сайлау"
+    },
+    "filters": {
+      "in_stock": "Дар анбор ҳаст",
+      "preorder": "Дархости пешакӣ"
+    },
+    "functions": {
+      "price": "Нархи",
+      "collapse": "Пӯшидан",
+      "buy": "Харидан"
+    },
+    "year": "с.",
+    "weight": "гр",
+    "items": {
+      "searchPlaceholder": "Номи шаҳр",
+      "notFound": "Ҳеҷ чиз ёфт нашуд, аммо ба зудӣ оварда мешавад!",
+      "success": "Ҷадвал бо муваффақият нусхабардорӣ шуд!",
+      "download": "Файл дар ҳоли боргирӣ аст...",
+      "lastUpdate": "Навсозӣ шуд",
+      "bbcode": "BB-код"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "Без командабызга иң югары зарплата һәм тиз карьера күтәрелеше өчен кеше алабыз.",
+    "breadcrumbs": "Эш",
+    "filters": {
+      "all": "Барлык вакансияләр",
+      "offline": "Оффлайн",
+      "online": "Онлайн",
+      "no_experience": "Тәҗрибәсез"
+    },
+    "buttons": {
+      "response": "Ариза додан барои ҷойи кор",
+      "calculator": "Керем калькуляторы",
+      "MoreDetails": "Муфассал",
+      "Hide": "Пинҳон кардан"
+    },
+      "salary": {
+          "from": "Аз",
+          "perMonth": "дар як моҳ"
+      }
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "Партнёрлык",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "ел",
+        "afterBrText": "базарда"
+      },
+      "second": {
+        "markered": "1 500 000+",
+        "afterBrText": "сделка"
+      },
+      "third": {
+        "markered": "Төзелгән җибәрү",
+        "afterBrText": "барлык РФ һәм СНГ буенча"
+      }
+    },
+    "items": {
+      "button": "Бо мо тамос гиред",
+      "MoreDetails": "Муфассал",
+      "Hide": "Пинҳон кардан"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "FAQ",
+    "heading": "Еш бирелә торган сораулар (FAQ)",
+    "info": "Da Vinci тәкъдим иткән уңайлы эшләү инструментлары"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "Контактлар",
+    "heading": "Товар сатып алу яки башка өстәмә мәгълүмат алу өчен безгә языгыз.",
+    "sales": "Сатыш бүлеге",
+    "work": "Эшкә алу бүлеге",
+    "info": "Шумо метавонед мустақиман бо роҳбарияти Da Vinci тавассути шуъбаи фурӯш тамос гиред. Агар сабабҳои шумо барои тамос асоснок дониста шаванд, шуъбаи фурӯш тамоси шуморо бо роҳбарият ташкил мекунад.",
+    "elementbutton": "Оё шумо ҳисоби Element надоред? Ҳисоб эҷод кунед"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "Көмеш",
+    "heading": "Безнең резервлы сылтамаларны саклагыз, төп сылтама эшләми икән.",
+    "button": "Үтә",
+    "copied": "Нусха гирифта шуд"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "Лутфан формаро зерро пур кунед, ва мо бо тартиби автоматӣ бо шумо тамос хоҳем гирифт!",
+    "breadcrumbs": {
+      "first": "Эш",
+      "second": "Анкета"
+    },
+    "result": {
+      "success": "Ташаккур барои дархости шумо! Мо форми шуморо гирифтем ва ба зудӣ бо шумо тамос хоҳем гирифт.",
+      "error": "Хатои ирсоли форма ба вуҷуд омад. Лутфан, боварӣ ҳосил кунед, ки ҳамаи майдонҳои ҳатмӣ пур шудаанд ва дубора кӯшиш кунед."
+    },
+    "form": {
+      "select": "Вакансияне сайлагыз",
+      "city": "Шәһәрне күрсәтегез",
+      "drivingLicence": "Вод. права:",
+      "yes": "Әйе",
+      "no": "Юк",
+      "ownTransport": "Үз транспортың:",
+      "contact": "Контактка сылтама",
+      "moving": "Күчешкә әзерме?",
+      "deposit": "Депозит белән",
+      "documents": "Документларга бин көз"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "Эш",
+      "second": "Калькулятор"
+    },
+    "form": {
+      "numberOfDeliveries": "Көнгә тапшырулар саны:",
+      "numberOfWorkingDays": "Айдагы эш көннәре саны:",
+      "depositAmount": "Сезнең депозит мөлкәте:",
+      "cashAmount": "Сезнең кэш суммасы:",
+      "moving": {
+        "title": "Күчешкә әзерме?",
+        "first": "Москва",
+        "second": "Далёкий Восток, Крым, Северный Кавказ",
+        "third": "Башка шәһәрләр"
+      },
+      "packingType": {
+        "title": "Пакетлау төре",
+        "first": "Пакетлау 1",
+        "second": "Пакетлау 2",
+        "third": "Пакетлау 3"
+      },
+      "sendingType": {
+        "title": "Җибәрү төре:",
+        "first": "Ат белән",
+        "second": "Кышка"
+      },
+      "receiptType": {
+        "title": "Ничек аласыз:",
+        "first": "Кулга",
+        "second": "Почтага"
+      },
+      "currency": "₽",
+      "quantity": "шт.",
+      "amountSum": "Барысы сумма",
+      "deliverySum": "Тапшырулар саны",
+      "button": "Санап чыгарырга"
+    }
+  },
+  "NotFound": {
+    "message": "404 - Бит табылмады"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "Қоидаҳо ва сиёсати захираҳо",
+    "heading": "Қоидаҳо ва сиёсати захираҳо"
+  }
+}

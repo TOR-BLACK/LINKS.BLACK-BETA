@@ -1,0 +1,51 @@
+@-moz-document url-prefix() {
+  * {
+    scrollbar-color: var(--accent-1) var(--gray220-black16);
+    scrollbar-width: thin;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  font-family: $font-montserrat;
+  color: var(--text);
+  background: var(--gray220-black16);
+  overflow: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+
+  &.static {
+    overflow: hidden;
+  }
+}
+
+::-webkit {
+  &-scrollbar {
+    width: 4px;
+    height: 4px;
+
+    &-track {
+      border-radius: 0;
+    }
+
+    &-thumb {
+      background-color: var(--accent-1);
+      border-radius: 5px;
+      border: 0;
+    }
+  }
+}

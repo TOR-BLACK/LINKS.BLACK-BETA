@@ -1,0 +1,129 @@
+.localhost {
+  // Mirror
+  &-mirror {
+    &-heading {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      &__info {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.22;
+        text-align: center;
+      }
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      &__heading {
+        @include h1;
+        text-transform: uppercase;
+
+        @include mobile {
+          text-align: center;
+        }
+      }
+
+      &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      &__info {
+        @include text-m;
+
+        @include mobile {
+          text-align: center;
+        }
+      }
+
+      &__links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 20px;
+
+        @include mobile {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      &-link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px;
+        gap: 20px;
+        background: var(--dies);
+        border-radius: 20px;
+        overflow: hidden;
+
+        &__info {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          overflow: hidden;
+        }
+
+        &__address {
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+
+          span {
+            @include text-m;
+          }
+        }
+
+        &__status {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background: $green;
+          flex: 0 0 auto;
+
+          &.dont-work {
+            background: $red;
+          }
+        }
+
+        .button-container {
+          display: flex;
+          gap: 10px;  
+          margin-left: auto; 
+        }
+        .button {
+          height: 35px;
+          min-width: 103px;
+          gap: 10px; 
+          margin-left: auto;  
+          
+          &.copy {
+              min-width: auto;
+              z-index: 2;
+
+              svg {
+                width: 19px;
+                height: 19px;
+                fill: var(--accent-2);
+                transition: $transition;
+
+                &:hover {
+                  fill: var(--gold176-brown46);
+                }
+
+                &.icon-check {
+                  stroke: var(--gray220-black16);
+                }
+              }
+            }
+        }
+      }
+    }
+  }
+}

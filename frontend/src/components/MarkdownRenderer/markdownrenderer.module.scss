@@ -1,0 +1,251 @@
+.markdown-content {
+    h1 {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      color: var(--accent-1);
+      line-height: 20px;
+    }
+    h2 {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      color: var(--accent-1);
+      line-height: 20px;
+    }
+  
+    h3 {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      color: var(--accent-1);
+      line-height: 20px;
+    }
+
+    em {
+      text-decoration: none;
+      font-style: normal;
+      color: var(--accent-1);
+    }
+    ul,
+    ol {
+      margin: 1em 0;
+      padding-left: 1.5em;
+  
+      li {
+        margin-bottom: 0.4em;
+        position: relative; 
+
+        &::before {
+          content: "•"; 
+          position: absolute;
+          left: -1em; 
+          top: 0; 
+          color: inherit; 
+          font-size: 1em; 
+        }
+      }
+  
+      input[type="checkbox"] {
+        margin-right: 0.5em;
+      }
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+  
+      th,
+      td {
+        padding: 0.5em;
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+  
+      th {
+        background-color: #f5f5f5;
+        font-weight: bold;
+      }
+    }
+  
+    a {
+      color: var(--accent-1);
+      text-decoration: none;
+    }
+  
+    blockquote {
+      border-left: 4px solid #ccc;
+      padding: 0.5em 1em;
+      color: #fffefe;
+      background-color: #f9f9f9;
+      margin: 1em 0;
+      font-style: italic;
+    }
+  
+    pre {
+      background-color: #f3f3f3;
+      padding: 1em;
+      overflow: auto;
+      border-radius: 5px;
+      margin: 1em 0;
+    }
+  
+    code {
+      background-color: #f3f3f3;
+      padding: 0.2em 0.4em;
+      border-radius: 3px;
+      font-family: "Courier New", monospace;
+      color: #d63384;
+    }
+  
+    img {
+      max-width: auto;
+      height: auto;
+      display: block;
+      // margin: 1em 0;
+    }
+  }
+  
+  .markdownContainer {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 8px; 
+
+    h1 {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      color: var(--accent-1);
+      line-height: 20px;
+    }
+    h2 {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      color: var(--accent-1);
+      line-height: 20px;
+    }
+  
+    h3 {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      color: var(--accent-1);
+      line-height: 20px;
+    }
+
+    em {
+      text-decoration: none;
+      font-style: normal;
+      color: var(--accent-1);
+    }
+    ul,
+    ol {
+      margin: 1em 0;
+      padding-left: 1.5em;
+  
+      li {
+        margin-bottom: 0.4em;
+        position: relative; 
+
+        &::before {
+          content: "•"; 
+          position: absolute;
+          left: -1em; 
+          top: 0; 
+          color: inherit; 
+          font-size: 1em; 
+        }
+      }
+  
+      input[type="checkbox"] {
+        margin-right: 0.5em;
+      }
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+  
+      th,
+      td {
+        padding: 0.5em;
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+  
+      th {
+        background-color: #f5f5f5;
+        font-weight: bold;
+      }
+    }
+  
+    a {
+      color: var(--accent-1);
+      text-decoration: none;
+    }
+  
+    blockquote {
+      border-left: 4px solid #ccc;
+      padding: 0.5em 1em;
+      color: #fffefe;
+      background-color: #f9f9f9;
+      margin: 1em 0;
+      font-style: italic;
+    }
+  
+    pre {
+      background-color: #f3f3f3;
+      padding: 1em;
+      overflow: auto;
+      border-radius: 5px;
+      margin: 1em 0;
+    }
+  
+    code {
+      background-color: #f3f3f3;
+      padding: 0.2em 0.4em;
+      border-radius: 3px;
+      font-family: "Courier New", monospace;
+      color: #d63384;
+    }
+  
+    img {
+      max-width: auto;
+      height: auto;
+      display: block;
+      // margin: 1em 0;
+    }
+    .link {
+      cursor: pointer;
+      color: var(--accent-1);
+      text-decoration: underline;
+      transition: color 0.3s ease;
+      align-self: center;
+    }
+    
+    .copied {
+      align-self: center;
+      color: var(--accent-1);
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    @media (max-width: 720px) {
+      .markdownContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .link, .copied {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+    
+  }

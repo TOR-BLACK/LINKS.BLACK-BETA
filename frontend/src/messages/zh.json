@@ -1,0 +1,215 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "如需购买商品或其他更多信息，请联系我们。",
+      "salesDepartmentButton": "销售部",
+      "employmentDepartmentButton": "就业部",
+      "supportButton": "与客服聊天"
+    },
+    "headerNav": {
+      "home": "首页",
+      "retail": "零售",
+      "wholesale": "批发",
+      "work": "工作",
+      "partnership": "合作",
+      "faq": "常见问题",
+      "contacts": "联系方式",
+      "menuButton": "菜单",
+      "mirrors": "镜子",
+      "telegramButton": "Telegram"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "买家",
+      "retail": "零售",
+      "wholesale": "批发",
+      "contacts": "联系方式"
+    },
+    "partnershipBlock": {
+      "title": "合作",
+      "vacancies": "职位空缺",
+      "partnership": "合作",
+      "contacts": "联系方式",
+      "managers": "联系达芬奇管理层"
+    },
+    "informationBlock": {
+      "title": "信息",
+      "rulesAndPolicies": "规则和政策",
+      "team": "团队",
+       "faq": "常见问题"
+    },
+    "copyright": "© 2017-2025 Da Vinci WebGram Market. 版权所有。"
+  },
+  "HomePage": {
+    "mainInfo": "- 包括我们的商品零售。为了方便您，我们在多个平台上提供服务。",
+    "cards": {
+      "button": "前往"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "批发",
+    "headingInfo": "选择地区以获取信息、价目表和当前商品库存。",
+    "countries": {
+      "allCountries": "所有国家"
+    },
+    "links": {
+      "excel": "下载Excel表格",
+      "copy": "复制表格"
+    },
+    "checkboxes": {
+      "selectAll": "全选"
+    },
+    "filters": {
+      "in_stock": "有库存",
+      "preorder": "预订"
+    },
+    "functions": {
+      "price": "价格",
+      "collapse": "折叠",
+      "buy": "购买"
+    },
+    "year": "年",
+    "weight": "克",
+    "items": {
+      "searchPlaceholder": "城市名称",
+      "notFound": "什么都没找到，但很快会到货!",
+      "success": "表格已成功复制！",
+      "download": "文件下载中...",
+      "lastUpdate": "更新",
+      "bbcode": "BB代码"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "我们正在招聘团队成员，最高薪水和快速的职业发展。",
+    "breadcrumbs": "工作",
+    "filters": {
+      "all": "所有职位",
+      "offline": "线下",
+      "online": "线上",
+      "no_experience": "无经验"
+    },
+    "buttons": {
+      "response": "申请职位",
+      "calculator": "收入计算器",
+      "MoreDetails": "更多详情",
+      "Hide": "隐藏"
+    },
+    "salary": {
+      "from": "从",
+      "perMonth": "每月"
+    }
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "合作",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "年",
+        "afterBrText": "市场经验"
+      },
+      "second": {
+        "markered": "1 500 000+",
+        "afterBrText": "交易"
+      },
+      "third": {
+        "markered": "完善的配送",
+        "afterBrText": "覆盖全俄罗斯及独联体"
+      }
+    },
+    "items": {
+      "button": "联系我们",
+      "MoreDetails": "更多详情",
+      "Hide": "隐藏"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "常见问题",
+    "heading": "常见问题解答 (FAQ)",
+    "info": "来自Da Vinci的便利工作工具"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "联系方式",
+    "heading": "如需购买商品或其他信息，请联系我们。",
+    "sales": "销售部",
+    "work": "就业部",
+    "info": "您可以通过销售部门直接联系达芬奇管理层。如果您的联系理由被认为是合理的，销售部门将安排您与管理层的沟通。",
+    "elementbutton": "您还没有 Element 账户？创建账户"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "镜子",
+    "heading": "请保存我们的备用链接，以防主链接不可用。",
+    "button": "前往",
+    "copied": "已复制"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "请填写下面的表格，我们将自动与您联系！",
+    "breadcrumbs": {
+      "first": "工作",
+      "second": "问卷"
+    },
+    "result": {
+      "success": "感谢您的申请！我们已收到您的表单，很快会与您联系。",
+      "error": "提交表单时发生错误。请确保填写所有必填字段并重试。"
+    },
+    "form": {
+      "select": "选择职位",
+      "city": "请填写城市",
+      "drivingLicence": "驾照：",
+      "yes": "是",
+      "no": "否",
+      "ownTransport": "自有交通工具：",
+      "contact": "联系方式",
+      "moving": "愿意搬迁吗？",
+      "deposit": "有存款",
+      "documents": "按文件",
+      "send": "提交问卷"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "工作",
+      "second": "计算器"
+    },
+    "form": {
+      "numberOfDeliveries": "每天送货数量：",
+      "numberOfWorkingDays": "每月工作天数：",
+      "depositAmount": "您的存款金额：",
+      "cashAmount": "您的现金金额：",
+      "moving": {
+        "title": "愿意搬迁吗？",
+        "first": "莫斯科",
+        "second": "远东、克里米亚、北高加索",
+        "third": "其他城市"
+      },
+      "packingType": {
+        "title": "包装类型",
+        "first": "包装1",
+        "second": "包装2",
+        "third": "包装3"
+      },
+      "sendingType": {
+        "title": "发货类型：",
+        "first": "通过马",
+        "second": "通过鸽"
+      },
+      "receiptType": {
+        "title": "如何接收：",
+        "first": "亲自取货",
+        "second": "邮寄"
+      },
+      "currency": "₽",
+      "quantity": "件",
+      "amountSum": "总金额",
+      "deliverySum": "送货数量",
+      "button": "计算"
+    }
+  },
+  "NotFound": {
+    "message": "404 - 页面未找到"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "规则和资源政策",
+    "heading": "规则和资源政策"
+  }
+}

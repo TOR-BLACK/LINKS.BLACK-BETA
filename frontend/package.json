@@ -1,0 +1,46 @@
+{
+  "name": "localhost",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.6.2",
+    "axios": "^1.7.7",
+    "localhost": "file:",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "ios": "^0.0.1",
+    "next": "14.2.15",
+    "next-intl": "^3.24.0",
+    "next-themes": "^0.3.0",
+    "node-sass-glob-importer": "^5.3.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.0",
+    "sass": "^1.79.5",
+    "sweetalert2": "^11.15.3",
+    "swiper": "^11.1.14",
+    "webpack": "^5.97.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "postcss-loader": "^8.1.1",
+    "typescript": "^5",
+    "webpack-cli": "^6.0.1"
+  }
+}

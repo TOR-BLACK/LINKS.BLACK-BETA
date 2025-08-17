@@ -1,0 +1,215 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "Напишіть нам для покупки товарів або іншої додаткової інформації.",
+      "salesDepartmentButton": "Відділ продажу",
+      "employmentDepartmentButton": "Відділ працевлаштування",
+      "supportButton": "Чат з оператором"
+    },
+    "headerNav": {
+      "home": "Головна",
+      "retail": "Роздріб",
+      "wholesale": "Опт",
+      "work": "Робота",
+      "partnership": "Партнерство",
+      "faq": "FAQ",
+      "contacts": "Контакти",
+      "menuButton": "Меню",
+      "mirrors": "Дзеркала",
+      "telegramButton": "Telegram"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "Покупцям",
+      "retail": "Роздріб",
+      "wholesale": "Опт",
+      "contacts": "Контакти"
+    },
+    "partnershipBlock": {
+      "title": "Співпраця",
+      "vacancies": "Вакансії",
+      "partnership": "Партнерство",
+      "contacts": "Контакти",
+      "managers": "Зв’язатися з керівництвом Da Vinci"
+    },
+    "informationBlock": {
+      "title": "Інформація",
+      "rulesAndPolicies": "Правила та політика ресурсу",
+      "team": "Команда",
+      "faq": "FAQ"
+    },
+    "copyright": "© 2017-2025 Da Vinci WebGram Market. Всі права захищені."
+  },
+  "HomePage": {
+    "mainInfo": "- це, зокрема, роздрібні продажі наших товарів. Для вашої зручності ми представлені на різних платформах.",
+    "cards": {
+      "button": "Перейти"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "Опт",
+    "headingInfo": "Виберіть регіон для отримання інформації, прайс-листа та актуальної наявності товару.",
+    "countries": {
+      "allCountries": "Всі країни"
+    },
+    "links": {
+      "excel": "Завантажити таблицю Excel",
+      "copy": "Скопіювати таблицю"
+    },
+    "checkboxes": {
+      "selectAll": "Вибрати все"
+    },
+    "filters": {
+      "in_stock": "В наявності",
+      "preorder": "Передзамовлення"
+    },
+    "functions": {
+      "price": "Прайс",
+      "collapse": "Згорнути",
+      "buy": "Купити"
+    },
+    "year": "р.",
+    "weight": "г",
+    "items": {
+      "searchPlaceholder": "Назва міста",
+      "notFound": "Нічого не знайдено, але скоро завеземо!",
+      "success": "Таблицю успішно скопійовано!",
+      "download": "Завантаження файлу...",
+      "lastUpdate": "Оновлено",
+      "bbcode": "BB-код"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "Набираємо команду з найвищою заробітною платою та швидким кар'єрним ростом.",
+    "breadcrumbs": "Робота",
+    "filters": {
+      "all": "Всі вакансії",
+      "offline": "Офлайн",
+      "online": "Онлайн",
+      "no_experience": "Без досвіду"
+    },
+    "buttons": {
+      "response": "Відгук на вакансію",
+      "calculator": "Калькулятор доходу",
+      "MoreDetails": "Докладніше",
+      "Hide": "Приховати"
+    },
+    "salary": {
+      "from": "Від",
+      "perMonth": "на місяць"
+    }
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "Партнерство",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "років",
+        "afterBrText": "на ринку"
+      },
+      "second": {
+        "markered": "1 500 000+",
+        "afterBrText": "угод"
+      },
+      "third": {
+        "markered": "Налагоджена доставка",
+        "afterBrText": "по всій Україні та СНД"
+      }
+    },
+    "items": {
+      "button": "Зв’язатися з нами",
+      "MoreDetails": "Докладніше",
+      "Hide": "Приховати"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "FAQ",
+    "heading": "Часті запитання (FAQ)",
+    "info": "Інструменти для зручної роботи від Da Vinci"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "Контакти",
+    "heading": "Напишіть нам для покупки товарів або іншої додаткової інформації.",
+    "sales": "Відділ продажу",
+    "work": "Відділ працевлаштування",
+    "info": "Ви можете напряму зв’язатися з керівництвом Da Vinci через відділ продажів. Якщо ваші причини для контакту будуть визнані обґрунтованими, відділ продажів організує ваш зв’язок з керівництвом.",
+    "elementbutton": "У вас немає акаунта в Element? Створити акаунт"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "Дзеркало",
+    "heading": "Збережіть наші резервні посилання на випадок, якщо основна не працює.",
+    "button": "Перейти",
+    "copied": "Скопійовано"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "Заповніть анкету нижче, і ми автоматично з вами зв’яжемося!",
+    "breadcrumbs": {
+      "first": "Робота",
+      "second": "Анкета"
+    },
+    "result": {
+      "success": "Дякуємо за вашу заявку! Ми отримали вашу форму і скоро з вами зв’яжемося.",
+      "error": "Сталася помилка під час надсилання форми. Переконайтеся, що всі обов’язкові поля заповнені, і спробуйте ще раз."
+    },
+    "form": {
+      "select": "Виберіть вакансію",
+      "city": "Вкажіть місто",
+      "drivingLicence": "Водійські права:",
+      "yes": "Так",
+      "no": "Ні",
+      "ownTransport": "Власний транспорт:",
+      "contact": "Посилання на контакт",
+      "moving": "Готові до переїзду?",
+      "deposit": "З депозитом",
+      "documents": "За документами",
+      "send": "Надіслати анкету"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "Робота",
+      "second": "Калькулятор"
+    },
+    "form": {
+      "numberOfDeliveries": "Кількість доставок за 1 день:",
+      "numberOfWorkingDays": "Кількість робочих днів у місяці:",
+      "depositAmount": "Сума вашого депозиту:",
+      "cashAmount": "Сума вашого кешу:",
+      "moving": {
+        "title": "Готові до переїзду?",
+        "first": "Київ",
+        "second": "Дальній Схід, Крим, Північний Кавказ",
+        "third": "Інші міста"
+      },
+      "packingType": {
+        "title": "Тип пакування",
+        "first": "Пакування 1",
+        "second": "Пакування 2",
+        "third": "Пакування 3"
+      },
+      "sendingType": {
+        "title": "Тип відправлення:",
+        "first": "Кінь",
+        "second": "Голуб"
+      },
+      "receiptType": {
+        "title": "Як отримуєте:",
+        "first": "В руки",
+        "second": "На пошту"
+      },
+      "currency": "₴",
+      "quantity": "шт.",
+      "amountSum": "Загальна сума",
+      "deliverySum": "Кількість доставок",
+      "button": "Розрахувати"
+    }
+  },
+  "NotFound": {
+    "message": "404 - Сторінка не знайдена"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "Правила та політика ресурсу",
+    "heading": "Правила та політика ресурсу"
+  }
+}

@@ -1,0 +1,114 @@
+// The color palette
+// White
+$white: #ffffff;
+$white-opacity: #ffffff66;
+
+// Black
+$black-1: #010101;
+$black-16: #101010;
+$black-26: #1a1a1a;
+
+// Gray
+$gray-64: #404040;
+$gray-64-opacity: #40404066;
+$gray-82: #525252;
+$gray-197: #c5c5c5;
+$gray-220: #dcdcdc;
+
+// Brown
+$brown: #5b431e;
+$brown-opacity: #5b431eb3;
+$brown-46: #7a5c2e;
+
+// Gold
+$gold: #ffbe5a;
+$gold-opacity: #ffbe5ab3;
+$gold-62: #a37b3e;
+$gold-176: #ffe0b0;
+
+// Green
+$green: #0a5f00;
+
+// Red
+$red: #5f0000;
+
+// Hover
+$brownhov: invert(23%) sepia(60%) saturate(500%) hue-rotate(357deg) brightness(94%) contrast(89%);
+$goldhov: invert(85%) sepia(82%) saturate(1454%) hue-rotate(310deg) brightness(96%) contrast(111%);
+
+//Gold
+$browngrad: linear-gradient(135deg, #FFD700 0%, #FFAA00 50%, #FF8C00 100%);
+$goldgrad: linear-gradient(135deg, #CFAF50 0%, #D4AF37 50%, #B8860B 100%);
+
+
+html {
+  // The main colors
+  --text: #{$gray-64};
+  --dies: #{$gray-197};
+  --accent-1: #{$brown};
+  --accent-2: #{$gold};
+  --accent-hover: #{$goldhov};
+
+  // Other
+  --gold-grad: #{$goldgrad};
+  --white-black16: #{$white};
+  --specific-svg: #{$gray-220};
+  --gray64-white: #{$gray-64};
+  --gray64-black1: #{$gray-64};
+  --gray64-black16: #{$gray-64};
+  --gray64Opacity-whiteOpacity: #{$gray-64-opacity};
+  --gray197-black16: #{$gray-197};
+  --gray197-black26: #{$gray-197};
+  --gray197-goldOpacity: #{$gray-197};
+  --gray220-black16: #{$gray-220};
+  --gray220-black26: #{$gray-220};
+  --gray220-gray64: #{$gray-220};
+  --gray220-brown: #{$gray-220};
+
+  --brown-brown: #{$brown};
+  --brown-white: #{$brown};
+  --brown-gold: #{$brown};
+  --brown46-gold176: #{$brown-46};
+  --brownOpacity-goldOpacity: #{$brown-opacity};
+
+  --gold-white: #{$gold};
+  --gold-brown: #{$gold};
+  --gold62-brown: #{$gold-62};
+  --gold176-brown46: #{$gold-176};
+
+  &.dark {
+    // The main colors
+    --text: #{$white};
+    --dies: #{$black-26};
+    --accent-1: #{$gold};
+    --accent-2: #{$brown};
+    --accent-hover: #{$brownhov};
+
+    // Other
+    --gold: #{$browngrad};
+    --white-black16: #{$black-16};
+    --specific-svg: #{$black-16};
+    --gray64-white: #{$white};
+    --gray64-black1: #{$black-1};
+    --gray64-black16: #{$black-16};
+    --gray64Opacity-whiteOpacity: #{$white-opacity};
+    --gray197-black16: #{$black-16};
+    --gray197-black26: #{$black-26};
+    --gray197-goldOpacity: #{$gold-opacity};
+    --gray220-black16: #{$black-16};
+    --gray220-black26: #{$black-26};
+    --gray220-gray64: #{$gray-64};
+    --gray220-brown: #{$brown};
+
+    --brown-brown: #{$brown};
+    --brown-white: #{$white};
+    --brown-gold: #{$gold};
+    --brown46-gold176: #{$gold-176};
+    --brownOpacity-goldOpacity: #{$gold-opacity};
+
+    --gold-white: #{$white};
+    --gold-brown: #{$brown};
+    --gold62-brown: #{$brown};
+    --gold176-brown46: #{$brown-46};
+  }
+}

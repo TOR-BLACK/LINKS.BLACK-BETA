@@ -1,0 +1,9 @@
+.color {
+  &-accent {
+    color: var(--accent-1);
+
+    &.bold {
+      font-weight: 700;
+    }
+  }
+}

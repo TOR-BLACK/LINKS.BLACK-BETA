@@ -1,0 +1,17 @@
+{% load static %}
+<div class="inline-related">
+    <fieldset class="module aligned">
+        <h2>{{ inline_admin_formset.opts.verbose_name_plural }}</h2>
+        {{ inline_admin_formset.management_form }}
+        {% for form in inline_admin_formset.forms %}
+            <div class="inline-related">
+                {{ form }}
+            </div>
+        {% endfor %}
+        {% if inline_admin_formset.empty_form %}
+            <div class="inline-related empty-form">
+                {{ inline_admin_formset.empty_form }}
+            </div>
+        {% endif %}
+    </fieldset>
+</div>

@@ -1,0 +1,215 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "Напишите нам для покупки товаров или другой дополнительной информации.",
+      "salesDepartmentButton": "Отдел продаж",
+      "employmentDepartmentButton": "Отдел трудоустройства",
+      "supportButton": "Чат с оператором"
+    },
+    "headerNav": {
+      "home": "Главная",
+      "retail": "Розница",
+      "wholesale": "Опт",
+      "work": "Работа",
+      "partnership": "Партнерство",
+      "faq": "FAQ",
+      "contacts": "Контакты",
+      "menuButton": "Меню",
+      "mirrors": "Зеркала",
+      "telegramButton": "Telegram"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "Покупателям",
+      "retail": "Розница",
+      "wholesale": "Опт",
+      "contacts": "Контакты"
+    },
+    "partnershipBlock": {
+      "title": "Сотрудничество",
+      "vacancies": "Вакансии",
+      "partnership": "Партнерство",
+      "contacts": "Контакты",
+      "managers": "Связаться с руководством Da Vinci"
+    },
+    "informationBlock": {
+      "title": "Информация",
+      "rulesAndPolicies": "Правила и политика ресурса",
+      "team": "Команда",
+      "faq": "FAQ"
+    },
+    "copyright": "© 2017-2025 Da Vinci WebGram Market. Все права защищены."
+  },
+  "HomePage": {
+    "mainInfo": "- это в том числе розничные продажи наших товаров. Для Вашего удобства мы размещены на различных площадках.",
+    "cards": {
+      "button": "Перейти"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "Опт",
+    "headingInfo": "Выберите регион для получение информации, прайс листа и актуального наличия товара.",
+    "countries": {
+      "allCountries": "Все страны"
+    },
+    "links": {
+      "excel": "Скачать таблицу Excel",
+      "copy": "Скопировать таблицу"
+    },
+    "checkboxes": {
+      "selectAll": "Выбрать всё"
+    },
+    "filters": {
+      "in_stock": "В наличии",
+      "preorder": "Предзаказ"
+    },
+    "functions": {
+      "price": "Прайс",
+      "collapse": "Свернуть",
+      "buy": "Купить"
+    },
+    "year": "г.",
+    "weight": "гр",
+    "items": {
+      "searchPlaceholder": "Название города",
+      "notFound": "Ничего не найдено, но скоро завезём!",
+      "success": "Таблица успешно скопирована!",
+      "download": "Загрузка файла...",
+      "lastUpdate": "Обновлено",
+      "bbcode": "BB-код"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "Набираем в команду за самую высокую заработную плату и быстрый карьерный рост.",
+    "breadcrumbs": "Работа",
+    "filters": {
+      "all": "Все вакансии",
+      "offline": "Оффлайн",
+      "online": "Онлайн",
+      "no_experience": "Без опыта"
+    },
+    "buttons": {
+      "response": "Отклик на вакансию",
+      "calculator": "Калькулятор дохода",
+      "MoreDetails": "Подробнее",
+      "Hide": "Скрыть"
+    },
+    "salary": {
+      "from": "От",
+      "perMonth": "в месяц"
+    }
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "Партнерство",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "лет",
+        "afterBrText": "на рынке"
+      },
+      "second": {
+        "markered": "1 500 000+", 
+        "afterBrText": "сделок"
+      },
+      "third": {
+        "markered": "Отлаженная доставка",
+        "afterBrText": "по всей РФ и СНГ"
+      }
+    },
+    "items": {
+      "button": "Связаться с нами",
+      "MoreDetails": "Подробнее",
+      "Hide": "Скрыть"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "FAQ",
+    "heading": "Часто задаваемые вопросы (FAQ)",
+    "info": "Инструменты для удобной работы от Da Vinci"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "Контакты",
+    "heading": "Напишите нам для покупки товаров или другой дополнительной информации.",
+    "sales": "Отдел продаж",
+    "work": "Отдел трудоустройства",
+    "info": "Вы можете напрямую связаться с руководством Da Vinci через отдел продаж. Если ваши причины для связи будут признаны обоснованными, отдел продаж организует вашу связь с руководством.",
+    "elementbutton": "У вас нету аккаунта в Element? Создать аккаунт"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "Зеркало",
+    "heading": "Сохраните наши резервные ссылки, в случае если основная не работает.",
+    "button": "Перейти",
+    "copied": "Скопировано"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "Заполните анĸету ниже и мы в автоматичесĸом режиме свяжем Вас!",
+    "breadcrumbs": {
+      "first": "Работа",
+      "second": "Анкета"
+    },
+    "result": {
+      "success": "Спасибо за вашу заявку! Мы получили вашу форму и скоро с вами свяжемся.",
+      "error": "Произошла ошибка при отправке формы. Убедитесь, что все обязательные поля заполнены и попробуйте снова."
+    },
+    "form": {
+      "select": "Выберете вакансию",
+      "city": "Укажите город",
+      "drivingLicence": "Вод. права:",
+      "yes": "Да",
+      "no": "Нет",
+      "ownTransport": "Свой транспорт:",
+      "contact": "Ссылка на контакт",
+      "moving": "Готовы к переезду?",
+      "deposit": "С депозитом",
+      "documents": "По документам",
+      "send": "Отправить анкету"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "Работа",
+      "second": "Калькулятор"
+    },
+    "form": {
+      "numberOfDeliveries": "Количество доставок за 1 день:",
+      "numberOfWorkingDays": "Количество рабочих дней в месяц:",
+      "depositAmount": "Сумма Вашего депозита:",
+      "cashAmount": "Сумма Вашего кэша:",
+      "moving": {
+        "title": "Готовы к переезду?",
+        "first": "Москва",
+        "second": "Дальний Восток, Крым, Северный Кавказ",
+        "third": "Остальные города"
+      },
+      "packingType": {
+        "title": "Тип фасовски",
+        "first": "Фасовка 1",
+        "second": "Фасовка 2",
+        "third": "Фасовка 3"
+      },
+      "sendingType": {
+        "title": "Тип отправки:",
+        "first": "Конем",
+        "second": "Голубем"
+      },
+      "receiptType": {
+        "title": "Как получаете:",
+        "first": "В руки",
+        "second": "На почту"
+      },
+      "currency": "₽",
+      "quantity": "шт.",
+      "amountSum": "Общая сумма",
+      "deliverySum": "Кол-во доставок",
+      "button": "Рассчитать"
+    }
+  },
+  "NotFound": {
+    "message": "404 - Страница не найдена"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "Правила и политика ресурса",
+    "heading": "Правила и политика ресурса"
+  }
+}

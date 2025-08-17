@@ -1,0 +1,22 @@
+section {
+  position: relative;
+  // padding: 0 40px;
+  width: 100%;
+  overflow: hidden;
+
+  @include tablet {
+    padding: 0 50px;
+  }
+
+  @include tabletMin {
+    padding: 0 30px;
+  }
+
+  @include mobile {
+    padding: 0 20px;
+  }
+
+  @include mobileMin {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,344 @@
+.header {
+  margin: 0 0 20px 0;
+  transition: $transition;
+
+  @include tablet {
+    padding: 0 50px;
+  }
+
+  @include tabletMin {
+    padding: 0 30px;
+  }
+
+  @include mobile {
+    padding: 0 20px;
+  }
+
+  @include mobileMin {
+    padding: 0 10px;
+  }
+
+  &__container {
+    @include container;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px 0 0 0;
+
+    @include tablet {
+      display: none;
+    }
+
+    .text {
+      &-s {
+        @include desctop {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+
+  &__logo {
+    svg {
+      width: 140px;
+      height: 40px;
+      fill: var(--gray220-black16);
+      transition: $transition;
+
+      @include tablet {
+        fill: var(--brown-white);
+      }
+
+      &:hover {
+        fill: var(--gold-brown);
+
+        @include tablet {
+          fill: var(--brown-white);
+        }
+      }
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 30px;
+    height: 70px; 
+    background: var(--accent-1);
+    border-radius: 20px;
+    justify-content: space-between;
+
+    @include tablet {
+      padding: 15px 10px; 
+      height: 80px;
+      background: transparent;
+    }
+
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    min-width: 30px;
+
+    .button {
+      &-circle {
+        &.theme {
+          @include mobile {
+              max-width: 30px;
+              max-height: 30px;
+              flex-shrink: 0; 
+          }
+        }
+
+        &.mirror {
+          @include tablet {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  // Scroll
+  &.header {
+    &-scroll {
+      position: fixed;
+      inset: 0 0 auto 0;
+      margin: 0 0 20px 0;
+      transform: translateY(-100%);
+      z-index: $ui-index-3;
+
+      @include tablet {
+        display: none;
+      }
+
+      &.show {
+        transform: translateY(0%);
+      }
+
+      .header {
+        &__top {
+          display: none;  
+        }
+
+        &__bottom {
+          height: 100px;
+          background: var(--gray220-black16);
+          border-radius: 0;
+        }
+
+        &__logo {
+          svg {
+            fill: var(--gray64-white);
+
+            &:hover {
+              fill: var(--accent-1);
+            }
+          }
+        }
+
+        &__buttons {
+          .button {
+            &-circle {
+              background: var(--gray64-white);
+
+              &:hover {
+                background: var(--gray220-gray64);
+                border: 1px solid var(--gray220-gray64);
+
+                svg {
+                  fill: var(--gray64-white);
+                }
+              }
+
+              svg {
+                fill: var(--gray220-black16);
+              }
+
+              &-lang {
+                color: var(--gray220-black16);
+                background: var(--gray64-white);
+
+                &:hover {
+                  color: var(--gray64-white);
+                  background: var(--gray220-gray64);
+                  border: 1px solid var(--gray220-gray64);
+
+                  svg {
+                    fill: var(--gray64-white);
+                  }
+                }
+
+                svg {
+                  fill: var(--gray220-black16);
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .navbar {
+        &-menu {
+          &-ul {
+            color: var(--gray220-black16);
+
+            &__li {
+              color: var(--text);
+
+              &.active {
+                color: var(--accent-1);
+                font-weight: 700;
+              }
+
+              a {
+                &:hover {
+                  color: var(--accent-1);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Mobile
+  &-mobile {
+    position: fixed;
+    inset: auto 0 0;
+    align-items: center;
+    height: 80px;
+    background: var(--gray220-black26);
+    box-shadow: 0px -2px 10px 0px #00000033;
+    z-index: $ui-index-3;
+    display: none;
+    padding: 0 50px;
+
+    @include tablet {
+      display: flex;
+    }
+
+    @include tabletMin {
+      padding: 0 30px;
+    }
+
+    @include mobile {
+      padding: 0 20px;
+    }
+
+    @include mobileMin {
+      padding: 0 10px;
+      height: 60px;
+    }
+
+    &__container {
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    &-navbar {
+      &-menu {
+        &-ul {
+          display: flex;
+          justify-content: space-between;
+          gap: 10px;
+          color: var(--gray64-white);
+          max-width: 700px;
+          margin: 0 auto;
+
+          &__li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            width: 60px;
+            height: 60px;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 1.22;
+            text-align: center;
+
+            @include mobileMin {
+              font-size: 8px;
+            }
+
+            &.burger {
+              position: relative;
+              &:has(.button-burger.open) {
+                color: var(--accent-1);
+              }
+            }
+            
+            &.active {
+              color: var(--accent-1);
+              svg{
+                fill: var(--accent-1);
+              }
+            }
+            
+            a {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: 5px;
+              width: 60px;
+              height: 60px;
+              font-size: 10px;
+              font-weight: 400;
+              line-height: 1.22;
+              text-align: center;
+              // &:hover {
+              //   color: var(--accent-1);
+              //   svg {
+              //     fill: var(--accent-1);
+              //   }
+              // }
+              &.active {
+                color: var(--accent-1);
+                svg{
+                  fill: var(--accent-1);
+                }
+              }
+            }
+            
+            &.active {
+              color: var(--accent-1);
+              svg{
+                fill: var(--accent-1);
+              }
+            }
+
+            svg {
+              width: 30px;
+              height: 30px;
+              fill: var(--gray64-white);
+              flex: 0 0 auto;
+
+              @include mobileMin {
+                width: 25px;
+                height: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

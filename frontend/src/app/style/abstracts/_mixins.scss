@@ -1,0 +1,30 @@
+// Adaptive
+@mixin desctop {
+  @media screen and (max-width: toRem(1440)) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: toRem(1280)) {
+    @content;
+  }
+}
+
+@mixin tabletMin {
+  @media screen and (max-width: toRem(1024)) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: toRem(768)) {
+    @content;
+  }
+}
+
+@mixin mobileMin {
+  @media screen and (max-width: toRem(576)) {
+    @content;
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "Ürün satın almak veya başka ek bilgiler için bize yazın.",
+      "salesDepartmentButton": "Satış Departmanı",
+      "employmentDepartmentButton": "İstihdam Departmanı",
+      "supportButton": "Operatör ile sohbet"
+    },
+    "headerNav": {
+      "home": "Anasayfa",
+      "retail": "Perakende",
+      "wholesale": "Toptan",
+      "work": "İş",
+      "partnership": "Ortaklık",
+      "faq": "SSS",
+      "contacts": "İletişim",
+      "menuButton": "Menü",
+      "mirrors": "Aynalar",
+      "telegramButton": "Telegram"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "Alıcılara",
+      "retail": "Perakende",
+      "wholesale": "Toptan",
+      "contacts": "İletişim"
+    },
+    "partnershipBlock": {
+      "title": "İşbirliği",
+      "vacancies": "İş İlanları",
+      "partnership": "Ortaklık",
+      "contacts": "İletişim",
+      "managers": "Da Vinci yönetimi ile iletişime geçin"
+    },
+    "informationBlock": {
+      "title": "Bilgi",
+      "rulesAndPolicies": "Kurallar ve politika",
+      "team": "Ekip",
+      "faq": "Sıkça Sorulan Sorular"
+    },
+    "copyright": "© 2017-2025 Da Vinci WebGram Market. Tüm hakları saklıdır."
+  },
+  "HomePage": {
+    "mainInfo": "- perakende satışlarımız da dahil. Rahatlığınız için çeşitli platformlarda yer alıyoruz.",
+    "cards": {
+      "button": "Devam et"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "Toptan",
+    "headingInfo": "Ürün bilgisi, fiyat listesi ve geçerli stok bilgisi için bölgeyi seçin.",
+    "countries": {
+      "allCountries": "Tüm ülkeler"
+    },
+    "links": {
+      "excel": "Excel tablosunu indir",
+      "copy": "Tabloyu kopyala"
+    },
+    "checkboxes": {
+      "selectAll": "Hepsini seç"
+    },
+    "filters": {
+      "in_stock": "Stokta var",
+      "preorder": "Ön sipariş"
+    },
+    "functions": {
+      "price": "Fiyat",
+      "collapse": "Daralt",
+      "buy": "Satın Al"
+    },
+    "year": "yıl",
+    "weight": "g",
+    "items": {
+      "searchPlaceholder": "Şehir adı",
+      "notFound": "Hiçbir şey bulunamadı, ama yakında getireceğiz!",
+      "success": "Tablo başarıyla kopyalandı!",
+       "download": "Dosya indiriliyor...",
+       "lastUpdate": "Güncellendi",
+       "bbcode": "BB-kod"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "En yüksek maaş ve hızlı kariyer gelişimi için ekip alımı yapıyoruz.",
+    "breadcrumbs": "İş",
+    "filters": {
+      "all": "Tüm iş ilanları",
+      "offline": "Offline",
+      "online": "Online",
+      "no_experience": "Tecrübesiz"
+    },
+    "buttons": {
+      "response": "İşe Başvur",
+      "calculator": "Gelir Hesaplayıcı",
+      "MoreDetails": "Daha fazla bilgi",
+      "Hide": "Gizle"
+    },
+    "salary": {
+        "from": "Başlangıç",
+        "perMonth": "aylık"
+    }
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "Ortaklık",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "yıl",
+        "afterBrText": "pazarında"
+      },
+      "second": {
+        "markered": "1 500 000+",
+        "afterBrText": "işlem"
+      },
+      "third": {
+        "markered": "Düzenli teslimat",
+        "afterBrText": "tüm RF ve BDT"
+      }
+    },
+    "items": {
+      "button": "Bizimle iletişime geçin",
+      "MoreDetails": "Daha fazla bilgi",
+      "Hide": "Gizle"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "SSS",
+    "heading": "Sıkça Sorulan Sorular (SSS)",
+    "info": "Da Vinci'den rahat çalışma araçları"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "İletişim",
+    "heading": "Ürün satın almak veya başka ek bilgiler için bize yazın.",
+    "sales": "Satış Departmanı",
+    "work": "İstihdam Departmanı",
+    "info": "Da Vinci yönetimiyle doğrudan satış departmanı aracılığıyla iletişime geçebilirsiniz. İletişim nedenleriniz geçerli kabul edilirse, satış departmanı yönetimle bağlantınızı düzenleyecektir.",
+    "elementbutton": "Element hesabınız yok mu? Hesap oluşturun"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "Aynalar",
+    "heading": "Ana bağlantı çalışmadığında yedek bağlantılarımızı kaydedin.",
+    "button": "Devam et",
+    "copied": "Kopyalandı"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "Aşağıdaki formu doldurun ve otomatik olarak sizinle iletişime geçeceğiz!",
+    "breadcrumbs": {
+      "first": "İş",
+      "second": "Anket"
+    },
+    "result": {
+      "success": "Başvurunuz için teşekkür ederiz! Formunuzu aldık ve yakında sizinle iletişime geçeceğiz.",
+      "error": "Form gönderilirken bir hata oluştu. Lütfen tüm zorunlu alanların doldurulduğundan emin olun ve tekrar deneyin."
+    },
+    "form": {
+      "select": "İş ilanını seçin",
+      "city": "Şehri belirtin",
+      "drivingLicence": "Ehliyet:",
+      "yes": "Evet",
+      "no": "Hayır",
+      "ownTransport": "Kendi araç:",
+      "contact": "İletişim bağlantısı",
+      "moving": "Taşınmaya hazır mısınız?",
+      "deposit": "Depozitolu",
+      "documents": "Belgelerle",
+      "send": "Anketi gönder"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "İş",
+      "second": "Hesaplayıcı"
+    },
+    "form": {
+      "numberOfDeliveries": "Günde yapılacak teslimat sayısı:",
+      "numberOfWorkingDays": "Aydaki çalışma günü sayısı:",
+      "depositAmount": "Depozit gelişi miktarı:",
+      "cashAmount": "Nakit miktarı:",
+      "moving": {
+        "title": "Taşınmaya hazır mısınız?",
+        "first": "Moskova",
+        "second": "Uzak Doğu, Kırım, Kuzey Kafkasya",
+        "third": "Diğer şehirler"
+      },
+      "packingType": {
+        "title": "Paketleme türü",
+        "first": "Paketleme 1",
+        "second": "Paketleme 2",
+        "third": "Paketleme 3"
+      },
+      "sendingType": {
+        "title": "Gönderim türü:",
+        "first": "Atla",
+        "second": "Güvercin ile"
+      },
+      "receiptType": {
+        "title": "Nasıl alıyorsunuz:",
+        "first": "Elden",
+        "second": "Posta ile"
+      },
+      "currency": "₽",
+      "quantity": "adet.",
+      "amountSum": "Toplam miktar",
+      "deliverySum": "Teslimat sayısı",
+      "button": "Hesapla"
+    }
+  },
+  "NotFound": {
+    "message": "404 - Sayfa bulunamadı"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "Kurallar ve Kaynak Politikası",
+    "heading": "Kurallar ve Kaynak Politikası"
+  }
+}

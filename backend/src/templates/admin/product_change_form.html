@@ -1,0 +1,13 @@
+{% extends "admin/change_form.html" %}
+{% block submit_buttons_bottom %}
+    {{ block.super }}
+    {% if show_file_upload %}
+    <div class="submit-row">
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="file" accept=".xlsx,.xls">
+            <input type="submit" value="Загрузить файл" class="default">
+        </form>
+    </div>
+    {% endif %}
+{% endblock %}

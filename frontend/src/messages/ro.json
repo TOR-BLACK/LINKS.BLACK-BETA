@@ -1,0 +1,215 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "Scrieți-ne pentru achiziționarea de produse sau alte informații suplimentare.",
+      "salesDepartmentButton": "Departamentul de vânzări",
+      "employmentDepartmentButton": "Departamentul de angajare",
+      "supportButton": "Chat cu un operator"
+    },
+    "headerNav": {
+      "home": "Acasă",
+      "retail": "Vânzare cu amănuntul",
+      "wholesale": "Vânzare en gros",
+      "work": "Muncă",
+      "partnership": "Parteneriate",
+      "faq": "Întrebări frecvente",
+      "contacts": "Contacte",
+      "menuButton": "Meniu",
+      "mirrors": "Oglinzi",
+      "telegramButton": "Telegram"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "Cumpărătorilor",
+      "retail": "Vânzare cu amănuntul",
+      "wholesale": "Vânzare en gros",
+      "contacts": "Contacte"
+    },
+    "partnershipBlock": {
+      "title": "Colaborare",
+      "vacancies": "Locuri de muncă",
+      "partnership": "Parteneriate",
+      "contacts": "Contacte",
+      "managers": "Contactați conducerea Da Vinci"
+    },
+    "informationBlock": {
+      "title": "Informații",
+      "rulesAndPolicies": "Reguli și politici ale resursei",
+      "team": "Echipa",
+      "faq": "Întrebări frecvente"
+    },
+    "copyright": "© 2017-2025 Da Vinci WebGram Market. Toate drepturile rezervate."
+  },
+  "HomePage": {
+    "mainInfo": "- include vânzări cu amănuntul ale produselor noastre. Pentru confortul dumneavoastră, ne-am stabilit pe diferite platforme.",
+    "cards": {
+      "button": "Accesați"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "Vânzare en gros",
+    "headingInfo": "Alegeți regiunea pentru a obține informații, lista de prețuri și stocul actual de produse.",
+    "countries": {
+      "allCountries": "Toate țările"
+    },
+    "links": {
+      "excel": "Descarcă tabel Excel",
+      "copy": "Copiază tabel"
+    },
+    "checkboxes": {
+      "selectAll": "Selectează tot"
+    },
+    "filters": {
+      "in_stock": "În stoc",
+      "preorder": "Precomandă"
+    },
+    "functions": {
+      "price": "Preț",
+      "collapse": "Retrage",
+      "buy": "Cumpără"
+    },
+    "year": "an",
+    "weight": "g",
+    "items": {
+      "searchPlaceholder": "Numele orașului",
+      "notFound": "Nu s-a găsit nimic, dar vom aduce în curând!",
+      "success": "Tabelul a fost copiat cu succes!",
+      "download": "Se descarcă fișierul...",
+      "lastUpdate": "Actualizat",
+      "bbcode": "BB-cod"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "Căutăm în echipă pentru cele mai mari salarii și o rapidă avansare în carieră.",
+    "breadcrumbs": "Muncă",
+    "filters": {
+      "all": "Toate locurile de muncă",
+      "offline": "Offline",
+      "online": "Online",
+      "no_experience": "Fără experiență"
+    },
+    "buttons": {
+      "response": "Aplică pentru post",
+      "calculator": "Calculator de venit",
+      "MoreDetails": "Mai multe detalii",
+      "Hide": "Ascunde"
+    },
+    "salary": {
+        "from": "De la",
+        "perMonth": "pe lună"
+    }
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "Parteneriate",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "ani",
+        "afterBrText": "pe piață"
+      },
+      "second": {
+        "markered": "1 500 000+",
+        "afterBrText": "tranzacții"
+      },
+      "third": {
+        "markered": "Livrare optimizată",
+        "afterBrText": "în întreaga RF și CSI"
+      }
+    },
+    "items": {
+      "button": "Contactați-ne",
+      "MoreDetails": "Mai multe detalii",
+      "Hide": "Ascunde"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "Întrebări frecvente",
+    "heading": "Întrebări frecvente (FAQ)",
+    "info": "Instrumente pentru muncă eficientă de la Da Vinci"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "Contacte",
+    "heading": "Scrieți-ne pentru achiziționarea de produse sau alte informații suplimentare.",
+    "sales": "Departamentul de vânzări",
+    "work": "Departamentul de angajare",
+    "info": "Puteți contacta direct conducerea Da Vinci prin departamentul de vânzări. Dacă motivele dvs. sunt considerate justificate, departamentul de vânzări va aranja comunicarea cu conducerea.",
+    "elementbutton": "Nu aveți un cont Element? Creați un cont"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "Oglindă",
+    "heading": "Salvați linkurile noastre de rezervă, în cazul în care cel principal nu funcționează.",
+    "button": "Accesați",
+    "copied": "Copiat"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "Completați formularul de mai jos și vă vom contacta automat!",
+    "breadcrumbs": {
+      "first": "Muncă",
+      "second": "Chestionar"
+    },
+    "result": {
+      "success": "Vă mulțumim pentru aplicația dumneavoastră! Am primit formularul și vă vom contacta în curând.",
+      "error": "A apărut o eroare la trimiterea formularului. Vă rugăm să vă asigurați că toate câmpurile obligatorii sunt completate și încercați din nou."
+    },
+    "form": {
+      "select": "Selectați locul de muncă",
+      "city": "Indicați orașul",
+      "drivingLicence": "Permis de conducere:",
+      "yes": "Da",
+      "no": "Nu",
+      "ownTransport": "Transport propriu:",
+      "contact": "Link către contact",
+      "moving": "Sunteți dispuși să vă mutați?",
+      "deposit": "Cu depozit",
+      "documents": "După documente",
+      "send": "Trimiteți chestionarul"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "Muncă",
+      "second": "Calculator"
+    },
+    "form": {
+      "numberOfDeliveries": "Numărul de livrări pe zi:",
+      "numberOfWorkingDays": "Numărul de zile lucrătoare pe lună:",
+      "depositAmount": "Suma depozitului dumneavoastră:",
+      "cashAmount": "Suma de numerar a dumneavoastră:",
+      "moving": {
+        "title": "Sunteți dispuși să vă mutați?",
+        "first": "Moscova",
+        "second": "Extremul Orient, Crimeea, Caucazul de Nord",
+        "third": "Alte orașe"
+      },
+      "packingType": {
+        "title": "Tip de ambalare",
+        "first": "Ambalare 1",
+        "second": "Ambalare 2",
+        "third": "Ambalare 3"
+      },
+      "sendingType": {
+        "title": "Tip de expediere:",
+        "first": "Cu cal",
+        "second": "Cu porumbel"
+      },
+      "receiptType": {
+        "title": "Cum primiți:",
+        "first": "În mână",
+        "second": "Pe e-mail"
+      },
+      "currency": "₽",
+      "quantity": "buc.",
+      "amountSum": "Suma totală",
+      "deliverySum": "Numărul de livrări",
+      "button": "Calculați"
+    }
+  },
+  "NotFound": {
+    "message": "404 - Pagina nu a fost găsită"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "Reguli și Politica de Resurse",
+    "heading": "Reguli și Politica de Resurse"
+  }
+}

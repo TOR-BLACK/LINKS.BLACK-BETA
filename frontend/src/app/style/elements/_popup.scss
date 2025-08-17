@@ -1,0 +1,113 @@
+.popup{
+    &-success {
+        &-toast {
+        opacity: 0.9;
+        background-color: var(--dies) !important; 
+        color: var(--accent-1);
+        width: auto !important;
+        height: auto !important; 
+        font-size: 12px !important;
+        }
+        &-icon {
+            font-size: 11px !important;
+        }
+        &-timer-bar {
+        background-color: var(--accent-1) !important; 
+        }
+    }
+
+    &-error {
+        &-toast {
+        opacity: 0.9;
+        background-color: var(--dies) !important; 
+        color: var(--accent-1);
+        width: auto !important;
+        height: auto !important; 
+        font-size: 12px !important;
+        }
+        &-icon {
+            font-size: 11px !important;
+            border-color: var(--accent-1) !important;
+        }
+        &-timer-bar {
+            background-color: var(--accent-1) !important; 
+        }
+    }
+    &-download {
+        &-toast {
+        opacity: 0.9;
+        background-color: var(--dies) !important; 
+        color: var(--accent-1);
+        width: auto !important;
+        height: auto !important; 
+        font-size: 12px !important;
+        }
+        &-icon {
+            font-size: 11px !important;
+            border-color: var(--accent-1) !important;
+            border: 0px;
+        }
+        &-timer-bar {
+            background-color: var(--accent-1) !important; 
+        }
+        @keyframes progress-bar {
+            0% {
+              stroke-dashoffset: 283;
+            }
+            100% {
+              stroke-dashoffset: 0;
+            }
+          }
+    }
+    &-managers{
+        &-toast {
+            width: 80% !important; /* Растягиваем окно */
+            max-width: 800px !important; /* Ограничиваем максимальную ширину */
+            text-align: center; /* Центрируем текст */
+            padding: 30px;
+            border-radius: 12px; /* Закругляем углы */
+            opacity: 1;
+            background-color: var(--dies) !important; 
+            color: var(--accent-1);
+            width: auto !important;
+            height: auto !important; 
+            font-size: 12px !important;
+        }
+        &-timer-bar {
+            background-color: var(--accent-1) !important; 
+        }
+        @keyframes progress-bar {
+            0% {
+              stroke-dashoffset: 283;
+            }
+            100% {
+              stroke-dashoffset: 0;
+            }
+          }
+        
+        &-title {
+            font-size: 20px;
+            font-weight: bold;
+            white-space: normal !important; /* Позволяет перенос строк */
+            word-wrap: break-word;
+        }
+        
+        
+    }
+}
+
+.swal2-icon.swal2-success .swal2-success-line-tip,
+.swal2-icon.swal2-success .swal2-success-line-long {
+    background-color: var(--accent-1) !important; 
+}
+
+.swal2-icon.swal2-success {
+    border-color: var(--accent-1) !important; 
+}
+  
+.swal2-icon.swal2-success .swal2-success-ring {
+    opacity: 0.5;
+    border-color: var(--accent-1) !important; 
+    fill: none !important; 
+}
+

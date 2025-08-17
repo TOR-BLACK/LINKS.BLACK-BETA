@@ -1,0 +1,216 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "اكتب لنا لشراء السلع أو للحصول على معلومات إضافية.",
+      "salesDepartmentButton": "قسم المبيعات",
+      "employmentDepartmentButton": "قسم التوظيف",
+      "supportButton": "العربية"
+    },
+    "headerNav": {
+      "home": "الرئيسية",
+      "retail": "تجزئة",
+      "wholesale": "جملة",
+      "work": "عمل",
+      "partnership": "شراكة",
+      "faq": "الأسئلة الشائعة",
+      "contacts": "جهات الاتصال",
+      "menuButton": "قائمة",
+      "mirrors": "المرايا",
+      "telegramButton": "تيليجرام"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "للمشترين",
+      "retail": "تجزئة",
+      "wholesale": "جملة",
+      "contacts": "جهات الاتصال"
+    },
+    "partnershipBlock": {
+      "title": "التعاون",
+      "vacancies": "الوظائف الشاغرة",
+      "partnership": "شراكة",
+      "contacts": "جهات الاتصال",
+      "managers": "الاتصال بإدارة دافنشي"
+    },
+    "informationBlock": {
+      "title": "معلومات",
+      "rulesAndPolicies": "القواعد وسياسات المورد",
+      "team": "فريق العمل",
+      "faq": "الأسئلة الشائعة"
+    },
+    "copyright": "© 2017-2025 دا فينشي ويبجرام ماركت. جميع الحقوق محفوظة."
+  },
+  "HomePage": {
+    "mainInfo": "- تشمل المبيعات التجزئة لسلعنا. لراحتك، نحن متواجدون في منصات مختلفة.",
+    "cards": {
+      "button": "الذهاب"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "جملة",
+    "headingInfo": "اختيار المنطقة للحصول على المعلومات، وقائمة الأسعار، وتوافر المنتجات.",
+    "countries": {
+      "allCountries": "جميع البلدان"
+    },
+    "links": {
+      "excel": "تنزيل جدول Excel",
+      "copy": "نسخ الجدول"
+    },
+    "checkboxes": {
+      "selectAll": "اختر الكل"
+    },
+    "filters": {
+      "in_stock": "متوفر في المخزون",
+      "preorder": "طلب مسبق"
+    },
+    "functions": {
+      "price": "السعر",
+      "collapse": "طي",
+      "buy": "شراء"
+    },
+    "year": "سنة",
+    "weight": "جرام",
+    "items": {
+      "searchPlaceholder": "اسم المدينة",
+      "notFound": "لم يتم العثور على شيء، لكننا سنوفره قريباً!",
+      "success": "تم نسخ الجدول بنجاح!",
+      "download": "جارِ تنزيل الملف...",
+      "lastUpdate": "محدث",
+      "bbcode": "BB-كود"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "نحن نبحث عن فريق بأعلى رواتب ونمو مهني سريع.",
+    "breadcrumbs": "عمل",
+    "filters": {
+      "all": "جميع الوظائف الشاغرة",
+      "offline": "غير متصل",
+      "online": "متصل",
+      "no_experience": "بدون خبرة"
+    },
+    "buttons": {
+      "response": "التقدم للوظيفة",
+      "calculator": "آلة حاسبة للإيرادات",
+      "MoreDetails": "المزيد من التفاصيل",
+      "Hide": "إخفاء"
+    },
+    "salary": {
+        "from": "من",
+        "perMonth": "في الشهر"
+    }
+  
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "شراكة",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "سنوات",
+        "afterBrText": "في السوق"
+      },
+      "second": {
+        "markered": "1 500 000+",
+        "afterBrText": "صفقات"
+      },
+      "third": {
+        "markered": "توصيل موثوق",
+        "afterBrText": "في جميع أنحاء روسيا ودول الكومنولث المستقلة"
+      }
+    },
+    "items": {
+      "button": "العربية",
+      "MoreDetails": "المزيد من التفاصيل",
+      "Hide": "إخفاء"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "الأسئلة الشائعة",
+    "heading": "الأسئلة الشائعة (FAQ)",
+    "info": "أدوات للعمل المريح من دا فينشي"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "جهات الاتصال",
+    "heading": "اكتب لنا لشراء السلع أو للحصول على معلومات إضافية.",
+    "sales": "قسم المبيعات",
+    "work": "قسم التوظيف",
+    "info": "يمكنك الاتصال بإدارة دا فينشي مباشرةً من خلال قسم المبيعات. إذا تم اعتبار أسباب الاتصال الخاصة بك مبررة، فسوف يقوم قسم المبيعات بتنظيم تواصلك مع الإدارة.",
+    "elementbutton": "ليس لديك حساب في Element؟ إنشاء حساب"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "مرآة",
+    "heading": "احفظ روابط النسخ الاحتياطي الخاصة بنا، في حال لم تعمل الروابط الرئيسية.",
+    "button": "الذهاب",
+    "copied": "تم النسخ"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "املأ النموذج أدناه وسنتصل بك تلقائيًا!",
+    "breadcrumbs": {
+      "first": "عمل",
+      "second": "استبيان"
+    },
+    "result": {
+      "success": "شكرًا على طلبك! لقد استلمنا نموذجك وسنتواصل معك قريبًا.",
+      "error": "حدث خطأ أثناء إرسال النموذج. يرجى التأكد من ملء جميع الحقول المطلوبة والمحاولة مرة أخرى."
+    },
+    "form": {
+      "select": "اختر الوظيفة",
+      "city": "حدد المدينة",
+      "drivingLicence": "رخصة القيادة:",
+      "yes": "نعم",
+      "no": "لا",
+      "ownTransport": "وسيلة النقل الخاصة:",
+      "contact": "رابط الاتصال",
+      "moving": "هل أنت مستعد للانتقال؟",
+      "deposit": "مع الإيداع",
+      "documents": "حسب الوثائق",
+      "send": "إرسال الاستمارة"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "عمل",
+      "second": "آلة حاسبة"
+    },
+    "form": {
+      "numberOfDeliveries": "عدد التسليمات في اليوم الواحد:",
+      "numberOfWorkingDays": "عدد أيام العمل في الشهر:",
+      "depositAmount": "مبلغ الإيداع الخاص بك:",
+      "cashAmount": "مبلغ النقد الخاص بك:",
+      "moving": {
+        "title": "هل أنت مستعد للانتقال؟",
+        "first": "موسكو",
+        "second": "الشرق الأقصى، القرم، شمال القوقاز",
+        "third": "مدن أخرى"
+      },
+      "packingType": {
+        "title": "نوع التعبئة",
+        "first": "تعبئة 1",
+        "second": "تعبئة 2",
+        "third": "تعبئة 3"
+      },
+      "sendingType": {
+        "title": "نوع الإرسال:",
+        "first": "حصان",
+        "second": "حمامة"
+      },
+      "receiptType": {
+        "title": "كيف تستلم:",
+        "first": "تسليم يدوي",
+        "second": "على البريد"
+      },
+      "currency": "₽",
+      "quantity": "قطع.",
+      "amountSum": "المجموع الكلي",
+      "deliverySum": "عدد التسليمات",
+      "button": "احسب"
+    }
+  },
+  "NotFound": {
+    "message": "404 - الصفحة غير موجودة"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "قواعد وسياسة الموارد",
+    "heading": "قواعد وسياسة الموارد"
+  }
+}

@@ -1,0 +1,161 @@
+// Core styles for links
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: $transition;
+}
+
+// Custom styles for links
+.link {
+  &-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 7px 15px;
+    min-width: 200px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.22;
+    color: var(--text);
+    background: var(--dies);
+    border-radius: 20px;
+    transition: $transition;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--accent-1);
+
+      .link {
+        &-button {
+          &__icon {
+            fill: var(--accent-1);
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+    }
+
+    &-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        .link-button-menu {
+          opacity: 1;
+          pointer-events: auto;
+          transform: translateY(0px);
+        }
+      }
+    }
+
+    &-menu {
+      position: absolute;
+      inset: 40px 0 auto 0;
+      background: var(--dies);
+      border-radius: 10px;
+      transition: $transition;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.2s;
+      transform: translateY(-20px);
+      z-index: $ui-index-4;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: 0;
+        right: 0;
+        height: 10px;
+        width: 100%;
+        background: transparent;
+      }
+
+      &__item {
+        display: flex; 
+        align-items: center;
+        justify-content: space-between; 
+        gap: 10px;
+        padding: 7px 15px;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.22;
+        color: var(--text);
+
+        
+        flex-wrap: wrap; 
+
+        a {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          white-space: nowrap;
+          max-width: 140px;
+
+          &:hover {
+            color: var(--accent-1);
+          }
+
+          span {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+          }
+
+          svg {
+            width: 18px;
+            height: 18px;
+            fill: var(--accent-1);
+          }
+        }
+
+        .button {
+          &-copy {
+            &:hover {
+              svg {
+                fill: var(--brown46-gold176);
+              }
+            }
+
+            svg {
+              width: 19px;
+              height: 19px;
+              fill: var(--accent-1);
+              transition: $transition;
+            }
+          }
+        }
+      }
+    }
+
+    svg {
+      fill: var(--text);
+      width: 16px;
+      height: 16px;
+    }
+
+    &.brown {
+      min-width: auto;
+      color: var(--white-black16);
+      background: var(--brown-gold);
+
+      &:hover {
+        color: var(--gold-white);
+        background: var(--brown-brown);
+
+        svg {
+          fill: var(--gold-white);
+        }
+      }
+
+      svg {
+        fill: var(--white-black16);
+      }
+    }
+  }
+}

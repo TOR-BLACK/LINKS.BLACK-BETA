@@ -1,0 +1,215 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "Mahsulotlarni sotib olish yoki boshqa qo'shimcha ma'lumotlar uchun biz bilan bog'laning.",
+      "salesDepartmentButton": "Savdo bo'limi",
+      "employmentDepartmentButton": "Ishga joylashish bo'limi",
+      "supportButton": "Operator bilan chat"
+    },
+    "headerNav": {
+      "home": "Asosiy",
+      "retail": "Rozor",
+      "wholesale": "Opt",
+      "work": "Ish",
+      "partnership": "Hamkorlik",
+      "faq": "FAQ",
+      "contacts": "Aloqalar",
+      "menuButton": "Menyuni ochish",
+      "mirrors": "Oyna",
+      "telegramButton": "Telegram"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "Xaridorlar uchun",
+      "retail": "Ro'yxat",
+      "wholesale": "Opt",
+      "contacts": "Aloqalar"
+    },
+    "partnershipBlock": {
+      "title": "Hamkorlik",
+      "vacancies": "Vakansiyalar",
+      "partnership": "Hamkorlik",
+      "contacts": "Aloqalar",
+      "managers": "Da Vinci rahbariyati bilan bog'lanish"
+    },
+    "informationBlock": {
+      "title": "Ma'lumot",
+      "rulesAndPolicies": "Manba qoidalari va siyosati",
+      "team": "Jamoa",
+      "faq": "Tez-tez so'raladigan savollar"
+    },
+    "copyright": "© 2017-2025 Da Vinci WebGram Market. Barcha huquqlar himoyalangan."
+  },
+  "HomePage": {
+    "mainInfo": "- bu, shuningdek, mahsulotlarimizning chakana savdosi. Sizning qulayligingiz uchun biz turli platformalarda joylashganmiz.",
+    "cards": {
+      "button": "O'tish"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "Opt",
+    "headingInfo": "Ma'lumot, narxlar reytingi va aktual mavjud mahsulot haqida ma'lumot uchun hududni tanlang.",
+    "countries": {
+      "allCountries": "Barcha mamlakatlar"
+    },
+    "links": {
+      "excel": "Excel faylini yuklab olish",
+      "copy": "Jadvalni nusxalash"
+    },
+    "checkboxes": {
+      "selectAll": "Hammasini tanlash"
+    },
+    "filters": {
+      "in_stock": "Omborda mavjud",
+      "preorder": "Oldindan buyurtma"
+    },
+    "functions": {
+      "price": "Narx",
+      "collapse": "Yopish",
+      "buy": "Sotib olish"
+    },
+    "year": "yil",
+    "weight": "гр",
+    "items": {
+      "searchPlaceholder": "Shahar nomi",
+      "notFound": "Hech narsa topilmadi, lekin tez orada yetkazamiz!",
+      "success": "Jadval muvaffaqiyatli ko‘chirildi!",
+      "download": "Fayl yuklanmoqda...",
+      "lastUpdate": "Yangilandi",
+      "bbcode": "BB-kod"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "Eng yuqori ish haqi va tez karera ko'tarilish uchun jamoaga qabul qilamiz.",
+    "breadcrumbs": "Ish",
+    "filters": {
+      "all": "Barcha vakansiyalar",
+      "offline": "Ofline",
+      "online": "Onlayn",
+      "no_experience": "Tajribasiz"
+    },
+    "buttons": {
+      "response": "Ishga ariza berish",
+      "calculator": "Daromad kalkulyatori",
+      "MoreDetails": "Batafsil",
+      "Hide": "Yashirish"
+    },
+    "salary": {
+        "from": "Dan",
+        "perMonth": "oyiga"
+    }
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "Hamkorlik",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "yil",
+        "afterBrText": "bozoridagi"
+      },
+      "second": {
+        "markered": "1 500 000+",
+        "afterBrText": "bitimlar"
+      },
+      "third": {
+        "markered": "Tayyor transport",
+        "afterBrText": "butun Rossiya va MDH boʻylab"
+      }
+    },
+    "items": {
+      "button": "Biz bilan bog‘laning",
+      "MoreDetails": "Batafsil",
+      "Hide": "Yashirish"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "FAQ",
+    "heading": "Ko'p beriladigan savollar (FAQ)",
+    "info": "Da Vinci-dan qulay ishlash uchun vositalar"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "Aloqalar",
+    "heading": "Mahsulotlarni sotib olish yoki boshqa qo'shimcha ma'lumotlar uchun biz bilan bog'laning.",
+    "sales": "Savdo bo'limi",
+    "work": "Ishga joylashish bo'limi",
+    "info": "Siz Da Vinci rahbariyati bilan to'g'ridan-to'g'ri savdo bo'limi orqali bog'lanishingiz mumkin. Agar bog'lanish sabablari asosli deb hisoblansa, savdo bo'limi sizning rahbariyat bilan bog'lanishingizni tashkil qiladi.",
+    "elementbutton": "Element hisobingiz yo‘qmi? Hisob yaratish"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "Oyna",
+    "heading": "Asosiy ishlamay qolsa, zaxira havolalarimizni saqlang.",
+    "button": "O'tish",
+    "copied": "Nusxa olindi"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "Quyidagi anketani to'ldiring va biz avtomatik tarzda siz bilan bog'lanamiz!",
+    "breadcrumbs": {
+      "first": "Ish",
+      "second": "Anketa"
+    },
+    "result": {
+      "success": "Arizangiz uchun rahmat! Biz formangizni oldik va tez orada siz bilan bog'lanamiz.",
+      "error": "Formani yuborishda xatolik yuz berdi. Iltimos, barcha majburiy maydonlarning to'ldirilganligiga ishonch hosil qiling va yana bir bor urinib ko'ring."
+    },
+    "form": {
+      "select": "Vakansiyani tanlang",
+      "city": "Shaharni ko'rsating",
+      "drivingLicence": "Haydovchilik guvohnomasi:",
+      "yes": "Ha",
+      "no": "Yo'q",
+      "ownTransport": "Shaxsiy transport:",
+      "contact": "Aloqa havolasi",
+      "moving": "Ko'chishga tayyormisiz?",
+      "deposit": "Depozit bilan",
+      "documents": "Hujjatlarni ko'ra",
+      "send": "Anketani yuborish"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "Ish",
+      "second": "Kalkulyator"
+    },
+    "form": {
+      "numberOfDeliveries": "Kuniga yetkazmalarning soni:",
+      "numberOfWorkingDays": "Oylik ish kunlari soni:",
+      "depositAmount": "Sizning depozitingiz miqdori:",
+      "cashAmount": "Sizning naqd pulingiz miqdori:",
+      "moving": {
+        "title": "Ko'chishga tayyormisiz?",
+        "first": "Moskva",
+        "second": "Uzoq Sharq, Krim, Shimoliy Kavkaz",
+        "third": "Boshqa shaharlar"
+      },
+      "packingType": {
+        "title": "O'ralish turi",
+        "first": "O'rash 1",
+        "second": "O'rash 2",
+        "third": "O'rash 3"
+      },
+      "sendingType": {
+        "title": "Yuborish turi:",
+        "first": "Ot bilan",
+        "second": "Bola bilan"
+      },
+      "receiptType": {
+        "title": "Qanday olasiz:",
+        "first": "Qo'lga",
+        "second": "Pochta orqali"
+      },
+      "currency": "₽",
+      "quantity": "dona.",
+      "amountSum": "Umumiy summa",
+      "deliverySum": "Yetkazmalarning soni",
+      "button": "Hisoblash"
+    }
+  },
+  "NotFound": {
+    "message": "404 - Sahifa topilmadi"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "Qoidalar va Resurs Siyosati",
+    "heading": "Qoidalar va Resurs Siyosati"
+  }
+}

@@ -1,0 +1,31 @@
+// Abstracts
+@import "./abstracts/*.scss";
+
+// Core
+@import "./core/*.scss";
+@import "./core/normalize.css";
+
+// Elements
+@import "./elements/*.scss";
+
+// Wrappers
+@import "./wrappers/*.scss";
+
+// Layout
+@import "./layout/*.scss";
+
+// Components
+@import "./components/*.scss";
+
+// Different
+@import "./different/*.scss";
+
+// Pages
+@import "./pages/*.scss";
+
+// Glide
+// Required Core Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+// Optional Theme Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";

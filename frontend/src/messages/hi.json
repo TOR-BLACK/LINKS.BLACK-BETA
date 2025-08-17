@@ -1,0 +1,215 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "हमसे संपर्क करें उत्पादों की खरीद या अन्य अतिरिक्त जानकारी के लिए।",
+      "salesDepartmentButton": "बिक्री विभाग",
+      "employmentDepartmentButton": "रोजगार विभाग",
+      "supportButton": "ऑपरेटर से चैट करें"
+    },
+    "headerNav": {
+      "home": "मुख्य पृष्ठ",
+      "retail": "खुदरा",
+      "wholesale": "थोक",
+      "work": "काम",
+      "partnership": "साझेदारी",
+      "faq": "FAQ",
+      "contacts": "संपर्क",
+      "menuButton": "मेनू",
+      "mirrors": "दर्पण",
+      "telegramButton": "Telegram"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "खरीददारों के लिए",
+      "retail": "खुदरा",
+      "wholesale": "थोक",
+      "contacts": "संपर्क"
+    },
+    "partnershipBlock": {
+      "title": "सहयोग",
+      "vacancies": "रिक्तियां",
+      "partnership": "साझेदारी",
+      "contacts": "संपर्क",
+      "managers": "दा विंची प्रबंधन से संपर्क करें"
+    },
+    "informationBlock": {
+      "title": "जानकारी",
+      "rulesAndPolicies": "संसाधन के नियम और नीतियाँ",
+      "team": "टीम",
+      "faq": "अक्सर पूछे जाने वाले प्रश्न"
+    },
+    "copyright": "© 2017-2025 Da Vinci WebGram मार्केट. सभी अधिकार सुरक्षित।"
+  },
+  "HomePage": {
+    "mainInfo": "- इसमें हमारे उत्पादों की खुदरा बिक्री भी शामिल है। आपकी सुविधा के लिए हम विभिन्न प्लेटफार्मों पर उपलब्ध हैं।",
+    "cards": {
+      "button": "जाएँ"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "थोक",
+    "headingInfo": "जानकारी, मूल्य सूची और उत्पाद की वर्तमान उपलब्धता प्राप्त करने के लिए क्षेत्र चुनें।",
+    "countries": {
+      "allCountries": "सभी देश"
+    },
+    "links": {
+      "excel": "Excel फ़ाइल डाउनलोड करें",
+      "copy": "सूची कॉपी करें"
+    },
+    "checkboxes": {
+      "selectAll": "सभी चुनें"
+    },
+    "filters": {
+      "in_stock": "स्टॉक में है",
+      "preorder": "पूर्व आदेश"
+    },
+    "functions": {
+      "price": "मूल्य",
+      "collapse": "संक्षेप करें",
+      "buy": "खरीदें"
+    },
+    "year": "वर्ष",
+    "weight": "ग्राम",
+    "items": {
+      "searchPlaceholder": "शहर का नाम",
+      "notFound": "कुछ नहीं मिला, लेकिन जल्द ही लाएंगे!",
+      "success": "तालिका सफलतापूर्वक कॉपी की गई!",
+      "download": "फ़ाइल डाउनलोड हो रही है...",
+      "lastUpdate": "अपडेट किया गया",
+      "bbcode": "BB-कोड"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "हम सबसे उच्चतम वेतन और तेज़ करियर विकास के लिए टीम में शामिल होने के लिए भर्ती कर रहे हैं।",
+    "breadcrumbs": "काम",
+    "filters": {
+      "all": "सभी रिक्तियां",
+      "offline": "ऑफ़लाइन",
+      "online": "ऑनलाइन",
+      "no_experience": "बिना अनुभव"
+    },
+    "buttons": {
+      "response": "नौकरी के लिए आवेदन करें",
+      "calculator": "आय कैलकुलेटर",
+      "MoreDetails": "और जानकारी",
+      "Hide": "छिपाएं"
+    },
+    "salary": {
+        "from": "से",
+        "perMonth": "प्रति माह"
+    }
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "साझेदारी",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "साल",
+        "afterBrText": "बाजार में"
+      },
+      "second": {
+        "markered": "1 500 000+",
+        "afterBrText": "सौदें"
+      },
+      "third": {
+        "markered": "संगठित वितरण",
+        "afterBrText": "पूरे रूस और सीआईएस में"
+      }
+    },
+    "items": {
+      "button": "हमसे संपर्क करें",
+      "MoreDetails": "और जानकारी",
+      "Hide": "छिपाएं"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "FAQ",
+    "heading": "बराबर पूछे जाने वाले प्रश्न (FAQ)",
+    "info": "Da Vinci से आसान काम के लिए उपकरण"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "संपर्क",
+    "heading": "उत्पादों की खरीद या अन्य अतिरिक्त जानकारी के लिए हमसे संपर्क करें।",
+    "sales": "बिक्री विभाग",
+    "work": "रोजगार विभाग",
+    "info": "आप बिक्री विभाग के माध्यम से सीधे Da Vinci प्रबंधन से संपर्क कर सकते हैं। यदि आपके संपर्क के कारण वैध माने जाते हैं, तो बिक्री विभाग आपके प्रबंधन से संपर्क की व्यवस्था करेगा।",
+    "elementbutton": "क्या आपके पास Element खाता नहीं है? खाता बनाएँ"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "दर्पण",
+    "heading": "हमारे बैकअप लिंक सहेजें, यदि मुख्य काम नहीं करता है।",
+    "button": "जाएँ",
+    "copied": "कॉपी किया गया"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "नीचे दिया गया फॉर्म भरें और हम स्वचालित रूप से आपसे संपर्क करेंगे!",
+    "breadcrumbs": {
+      "first": "काम",
+      "second": "प्रश्नावली"
+    },
+    "result": {
+      "success": "आपकी आवेदन के लिए धन्यवाद! हम आपका फॉर्म प्राप्त कर चुके हैं और जल्द ही आपसे संपर्क करेंगे।",
+      "error": "फॉर्म भेजते समय एक त्रुटि हुई। कृपया सुनिश्चित करें कि सभी आवश्यक फ़ील्ड भरे गए हैं और फिर से प्रयास करें।"
+    },
+    "form": {
+      "select": "रिक्ति चुनें",
+      "city": "शहर निर्दिष्ट करें",
+      "drivingLicence": "ड्राइविंग लाइसेंस:",
+      "yes": "हाँ",
+      "no": "नहीं",
+      "ownTransport": "अपना परिवहन:",
+      "contact": "संपर्क लिंक",
+      "moving": "स्थानांतरित होने के लिए तैयार हैं?",
+      "deposit": "डिपॉजिट के साथ",
+      "documents": "कागजात के अनुसार",
+      "send": "प्रश्नावली भेजें"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "काम",
+      "second": "कैलकुलेटर"
+    },
+    "form": {
+      "numberOfDeliveries": "1 दिन में डिलीवरी की संख्या:",
+      "numberOfWorkingDays": "एक महीने में कार्य दिवसों की संख्या:",
+      "depositAmount": "आपके डिपॉजिट की राशि:",
+      "cashAmount": "आपके कैश की राशि:",
+      "moving": {
+        "title": "स्थानांतरित होने के लिए तैयार हैं?",
+        "first": "मास्को",
+        "second": "दूर पूर्व, क्रीम, उत्तरी काकेशस",
+        "third": "अन्य शहर"
+      },
+      "packingType": {
+        "title": "पैकिंग का प्रकार",
+        "first": "पैकिंग 1",
+        "second": "पैकिंग 2",
+        "third": "पैकिंग 3"
+      },
+      "sendingType": {
+        "title": "भेजने का प्रकार:",
+        "first": "घोड़े द्वारा",
+        "second": "कबूतर द्वारा"
+      },
+      "receiptType": {
+        "title": "आप कैसे प्राप्त करते हैं:",
+        "first": "हाथ में",
+        "second": "डाक के माध्यम से"
+      },
+      "currency": "₽",
+      "quantity": "पीस",
+      "amountSum": "कुल राशि",
+      "deliverySum": "डिलीवरी की मात्रा",
+      "button": "गणना करें"
+    }
+  },
+  "NotFound": {
+    "message": "404 - पृष्ठ नहीं मिला"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "नियम और संसाधन नीति",
+    "heading": "नियम और संसाधन नीति"
+  }
+}

@@ -1,0 +1,30 @@
+.localhost {
+  // Icons
+  &-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: $gray-197;
+    border-radius: 20px;
+
+    &__block {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+
+      &.icons {
+        svg {
+          width: 60px;
+          height: 60px;
+        }
+      }
+
+      &.images {
+        svg {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+  }
+}

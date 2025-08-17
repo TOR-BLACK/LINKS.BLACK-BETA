@@ -1,0 +1,289 @@
+.tabs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+  // FAQ  
+  &.faq {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    min-height: auto;
+
+    @include tablet {
+      display: none;
+      flex-direction: column-reverse;
+    }
+
+    .tabs {
+      &-tablist {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 0;
+        height: auto;
+        background: transparent;
+
+        @include tablet {
+          gap: 10px;
+        }
+
+        @include tabletMin {
+          margin: 0;
+        }
+
+        &__button {
+          white-space: normal;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 20px;
+          padding: 6px 25px;
+          min-height: 64px;
+          width: 100%;
+          font-size: 16px;
+          background: var(--gray197-black26);
+          transition: 0s;
+
+          @include tablet {
+            min-height: 50px;
+            font-size: 12px;
+          }
+
+          &:hover {
+            color: var(--accent-1);
+
+            svg {
+              fill: var(--gray64-white);
+            }
+          }
+
+          &[aria-selected="true"] {
+            color: var(--accent-1);
+            font-weight: 700;
+
+            svg {
+              fill: var(--accent-1);
+              transform: rotate(180deg);
+
+              @include tablet {
+                transform: rotate(450deg);
+              }
+            }
+          }
+
+          &.main {
+            display: none;
+          }
+
+          svg {
+            transition: $transition;
+          }
+        }
+      }
+
+      &__content {
+        display: flex;
+        // justify-content: center;
+        transition: $transition;
+
+        @include tablet {
+          min-height: 230px;
+          // min-height: auto;
+        }
+
+        &[hidden] {
+          display: none;
+        }
+
+        &.main {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          &[hidden] {
+            display: none;
+          }
+
+          img, svg {
+            max-width: 458px;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+
+            @include tablet {
+              max-width: 350px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-tablist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 8px 10px;
+    height: 54px;
+    background: var(--gray197-black26);
+    border-radius: 20px;
+    padding: 8px 25px;
+
+    @include tabletMin {
+      overflow-x: scroll;
+      scrollbar-width: none;
+      margin: 0 -30px;
+      padding: 8px 30px;
+      border-radius: 0;
+    }
+
+    @include mobile {
+      margin: 0 -20px;
+      padding: 8px 20px;
+    }
+
+    @include mobileMin {
+      margin: 0 -10px;
+      padding: 8px 10px;
+    }
+
+    &__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 15px;
+      gap: 10px;
+      height: 29px;
+      flex-grow: 1;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.22;
+      border-radius: 10px;
+      transition: $transition;
+      white-space: nowrap;
+      cursor: pointer;
+
+      @include tablet {
+        font-size: 12px;
+      }
+
+      &:hover {
+        background: var(--brownOpacity-goldOpacity);
+        color: var(--gray220-black16);
+
+        svg {
+          fill: var(--gray220-black16);
+        }
+      }
+
+      &[aria-selected="true"] {
+        background: var(--accent-1);
+        color: var(--gray220-black16);
+
+        &:hover {
+          opacity: 1;
+        }
+
+        svg {
+          fill: var(--gray220-black16);
+        }
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+        fill: var(--gray64-white);
+        transition: $transition;
+      }
+    }
+
+    // Work
+    &.work {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      height: 54px;
+      background: var(--gray197-black26);
+      border-radius: 20px;
+      padding: 8px 25px;
+
+      @include tabletMin {
+        border-radius: 0;
+      }
+
+      .tabs {
+        &-tablist {
+          &__button {
+            min-width: auto;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+
+    // Availability
+    &.availability {
+      position: relative; // Основной элемент на обычной позиции
+    z-index: 1;
+      min-width: 508px;
+      margin: 0 auto;
+      
+      @include tabletMin {
+        border-radius: 20px;
+      }
+
+      @include mobileMin {
+        flex-direction: row;
+        margin: 0 -10px 0 -10px;
+        min-width: auto;
+        height: auto;
+        border-radius: 20px;
+      }
+      
+      .tabs {
+        
+        &-tablist {
+          &__button {
+            min-width: auto;
+          }
+        }
+      }
+    }
+  }
+  
+  .last-update{ 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    z-index: 2; 
+    pointer-events: none; 
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.22;
+
+    display: flex; 
+    justify-content: right; 
+    align-items: center; 
+    text-align: center; 
+    @include tabletMin{
+      position: relative; 
+      justify-content: center;      
+      font-size: 12px; 
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &[hidden] {
+      display: none;
+    }
+  }
+}

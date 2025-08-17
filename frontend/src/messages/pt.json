@@ -1,0 +1,215 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "Escreva para nós para a compra de produtos ou outras informações adicionais.",
+      "salesDepartmentButton": "Departamento de Vendas",
+      "employmentDepartmentButton": "Departamento de Emprego",
+      "supportButton": "Chat com um operador"
+    },
+    "headerNav": {
+      "home": "Início",
+      "retail": "Varejo",
+      "wholesale": "Atacado",
+      "work": "Trabalho",
+      "partnership": "Parceria",
+      "faq": "FAQ",
+      "contacts": "Contatos",
+      "menuButton": "Menu",
+      "mirrors": "Espelhos",
+      "telegramButton": "Telegram"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "Compradores",
+      "retail": "Varejo",
+      "wholesale": "Atacado",
+      "contacts": "Contatos"
+    },
+    "partnershipBlock": {
+      "title": "Colaboração",
+      "vacancies": "Vagas",
+      "partnership": "Parceria",
+      "contacts": "Contatos",
+      "managers": "Entrar em contato com a gerência da Da Vinci"
+    },
+    "informationBlock": {
+      "title": "Informação",
+      "rulesAndPolicies": "Regras e políticas do recurso",
+      "team": "Equipe",
+      "faq": "Perguntas Frequentes"
+    },
+    "copyright": "© 2017-2025 Da Vinci WebGram Market. Todos os direitos reservados."
+  },
+  "HomePage": {
+    "mainInfo": "- isto inclui também a venda a retalho dos nossos produtos. Para seu conforto, estamos em várias plataformas.",
+    "cards": {
+      "button": "Ir para"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "Atacado",
+    "headingInfo": "Escolha a região para obter informações, lista de preços e estoque atual do produto.",
+    "countries": {
+      "allCountries": "Todos os países"
+    },
+    "links": {
+      "excel": "Baixar tabela Excel",
+      "copy": "Copiar tabela"
+    },
+    "checkboxes": {
+      "selectAll": "Selecionar tudo"
+    },
+    "filters": {
+      "in_stock": "Em estoque",
+      "preorder": "Pré-venda"
+    },
+    "functions": {
+      "price": "Preço",
+      "collapse": "Recolher",
+      "buy": "Comprar"
+    },
+    "year": "ano",
+    "weight": "g",
+    "items": {
+      "searchPlaceholder": "Nome da cidade",
+      "notFound": "Nada encontrado, mas logo teremos estoque!",
+      "success": "Tabela copiada com sucesso!",
+      "download": "Baixando o arquivo...",
+      "lastUpdate": "Atualizado",
+      "bbcode": "Código BB"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "Estamos recrutando para a equipe com o salário mais alto e rápido crescimento na carreira.",
+    "breadcrumbs": "Trabalho",
+    "filters": {
+      "all": "Todas as vagas",
+      "offline": "Offline",
+      "online": "Online",
+      "no_experience": "Sem experiência"
+    },
+    "buttons": {
+      "response": "Candidatar-se à vaga",
+      "calculator": "Calculadora de renda",
+      "MoreDetails": "Mais detalhes",
+      "Hide": "Ocultar"
+    },
+    "salary": {
+        "from": "A partir de",
+        "perMonth": "por mês"
+    }
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "Parceria",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "anos",
+        "afterBrText": "no mercado"
+      },
+      "second": {
+        "markered": "1 500 000+",
+        "afterBrText": "negócios"
+      },
+      "third": {
+        "markered": "Entrega eficiente",
+        "afterBrText": "em toda a Rússia e CEI"
+      }
+    },
+    "items": {
+      "button": "Entre em contato conosco",
+      "MoreDetails": "Mais detalhes",
+      "Hide": "Ocultar"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "FAQ",
+    "heading": "Perguntas Frequentes (FAQ)",
+    "info": "Ferramentas para trabalho conveniente da Da Vinci"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "Contatos",
+    "heading": "Escreva para nós para a compra de produtos ou outras informações adicionais.",
+    "sales": "Departamento de Vendas",
+    "work": "Departamento de Emprego",
+    "info": "Você pode entrar em contato diretamente com a administração da Da Vinci através do departamento de vendas. Se seus motivos forem considerados válidos, o departamento de vendas organizará sua comunicação com a administração.",
+    "elementbutton": "Você não tem uma conta no Element? Criar conta"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "Espelho",
+    "heading": "Salve nossos links de backup, caso o principal não funcione.",
+    "button": "Ir para",
+    "copied": "Copiado"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "Preencha o formulário abaixo e entraremos em contato automaticamente!",
+    "breadcrumbs": {
+      "first": "Trabalho",
+      "second": "Formulário"
+    },
+    "result": {
+      "success": "Obrigado pela sua inscrição! Recebemos seu formulário e entraremos em contato em breve.",
+      "error": "Ocorreu um erro ao enviar o formulário. Certifique-se de preencher todos os campos obrigatórios e tente novamente."
+    },
+    "form": {
+      "select": "Selecione a vaga",
+      "city": "Indique a cidade",
+      "drivingLicence": "CNH:",
+      "yes": "Sim",
+      "no": "Não",
+      "ownTransport": "Transporte próprio:",
+      "contact": "Link para contato",
+      "moving": "Pronto para se mudar?",
+      "deposit": "Com depósito",
+      "documents": "Por documentos",
+      "send": "Enviar formulário"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "Trabalho",
+      "second": "Calculadora"
+    },
+    "form": {
+      "numberOfDeliveries": "Número de entregas por dia:",
+      "numberOfWorkingDays": "Número de dias úteis no mês:",
+      "depositAmount": "Valor do seu depósito:",
+      "cashAmount": "Valor do seu caixa:",
+      "moving": {
+        "title": "Pronto para se mudar?",
+        "first": "Moscovo",
+        "second": "Extremo Oriente, Crimeia, Cálcaso do Norte",
+        "third": "Outras cidades"
+      },
+      "packingType": {
+        "title": "Tipo de embalagem",
+        "first": "Embalagem 1",
+        "second": "Embalagem 2",
+        "third": "Embalagem 3"
+      },
+      "sendingType": {
+        "title": "Tipo de envio:",
+        "first": "Por cavalo",
+        "second": "Por pomba"
+      },
+      "receiptType": {
+        "title": "Como recebe:",
+        "first": "Em mãos",
+        "second": "Por correio"
+      },
+      "currency": "₽",
+      "quantity": "un.",
+      "amountSum": "Valor total",
+      "deliverySum": "Número de entregas",
+      "button": "Calcular"
+    }
+  },
+  "NotFound": {
+    "message": "404 - Página não encontrada"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "Regras e Política de Recursos",
+    "heading": "Regras e Política de Recursos"
+  }
+}

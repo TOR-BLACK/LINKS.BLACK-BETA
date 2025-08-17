@@ -1,0 +1,216 @@
+{
+  "Header": {
+    "headerInfo": {
+      "supportInfo": "Contact us for purchasing goods or any additional information.",
+      "salesDepartmentButton": "Sales Department",
+      "employmentDepartmentButton": "Employment Department",
+      "supportButton": "Chat with an operator"
+    },
+    "headerNav": {
+      "home": "Home",
+      "retail": "Retail",
+      "wholesale": "Wholesale",
+      "work": "Jobs",
+      "partnership": "Partnership",
+      "faq": "FAQ",
+      "contacts": "Contacts",
+      "menuButton": "Menu",
+      "mirrors": "Mirrors",
+      "telegramButton": "Telegram"
+    }
+  },
+  "Footer": {
+    "buyersBlock": {
+      "title": "For Buyers",
+      "retail": "Retail",
+      "wholesale": "Wholesale",
+      "contacts": "Contacts"
+    },
+    "partnershipBlock": {
+      "title": "Partnership",
+      "vacancies": "Vacancies",
+      "partnership": "Partnership",
+      "contacts": "Contacts",
+      "managers": "Contact Da Vinci Management"
+    },
+    "informationBlock": {
+      "title": "Information",
+      "rulesAndPolicies": "Site Rules and Policies",
+      "team": "Team",
+      "faq": "FAQ"
+    },
+    "copyright": "© 2017-2025 Da Vinci WebGram Market. All rights reserved."
+  },
+  "HomePage": {
+    "mainInfo": "- includes retail sales of our products. For your convenience, we are available on various platforms.",
+    "cards": {
+      "button": "Go"
+    }
+  },
+  "WholesalePage": {
+    "breadcrumbs": "Wholesale",
+    "headingInfo": "Select a region to get information, price lists, and current product availability.",
+    "countries": {
+      "allCountries": "All Countries"
+    },
+    "links": {
+      "excel": "Download Excel Table",
+      "copy": "Copy Table"
+    },
+    "checkboxes": {
+      "selectAll": "Select All"
+    },
+    "filters": {
+      "in_stock": "In Stock",
+      "preorder": "Preorder"
+    },
+    "functions": {
+      "price": "Price",
+      "collapse": "Collapse",
+      "buy": "Buy"
+    },
+    "year": "yr.",
+    "weight": "g",
+    "items": {
+      "searchPlaceholder": "City name",
+      "notFound": "Nothing found, but we'll stock up soon!",
+      "success": "Table successfully copied!",
+      "download": "Downloading file...",
+      "lastUpdate": "Updated",
+      "bbcode": "BB-code"
+    }
+  },
+  "WorkPage": {
+    "headingInfo": "Join our team for the highest salary and fast career growth.",
+    "breadcrumbs": "Jobs",
+    "filters": {
+      "all": "All Vacancies",
+      "offline": "Offline",
+      "online": "Online",
+      "no_experience": "No Experience"
+    },
+    "buttons": {
+      "response": "Apply for the Job",
+      "calculator": "Income Calculator",
+      "MoreDetails": "More details",
+      "Hide": "Hide"
+    },
+    "salary": {
+        "from": "From",
+        "perMonth": "per month"
+    }
+  },
+  "PartnershipPage": {
+    "breadcrumbs": "Partnership",
+    "headingInfo": {
+      "first": {
+        "markered": "8",
+        "beforeBrText": "years",
+        "afterBrText": "in the market"
+      },
+      "second": {
+        "markered": "1 500 000+",
+        "afterBrText": "deals"
+      },
+      "third": {
+        "markered": "Efficient delivery",
+        "afterBrText": "across Russia and CIS"
+      }
+    },
+    "items": {
+      "button": "Contact us",
+      "MoreDetails": "More details",
+      "Hide": "Hide"
+    }
+  },
+  "FaqPage": {
+    "breadcrumbs": "FAQ",
+    "heading": "Frequently Asked Questions (FAQ)",
+    "info": "Tools for convenient work from Da Vinci"
+  },
+  "ContactsPage": {
+    "breadcrumbs": "Contacts",
+    "heading": "Contact us for purchasing goods or any additional information.",
+    "sales": "Sales Department",
+    "work": "Employment Department",
+    "info": "You can contact the Da Vinci management directly through the sales department. If your reasons for contact are deemed valid, the sales department will arrange your communication with the management.",
+    "elementbutton": "Don't have an Element account? Create an account"
+  },
+  "MirrorPage": {
+    "breadcrumbs": "Mirror",
+    "heading": "Save our backup links in case the main one is not working.",
+    "button": "Go",
+    "copied": "Copied"
+  },
+  "QuestionnairePage": {
+    "headerInfo": "Fill out the form below, and we will contact you automatically!",
+    "breadcrumbs": {
+      "first": "Jobs",
+      "second": "Form"
+    },
+    "result": {
+      "success": "Thank you for your application! We have received your form and will contact you soon.",
+      "error": "There was an error submitting the form. Please make sure all required fields are filled and try again."
+    },
+    "form": {
+      "select": "Select Job Position",
+      "city": "Enter City",
+      "drivingLicence": "Driver's License:",
+      "yes": "Yes",
+      "no": "No",
+      "ownTransport": "Own Transport:",
+      "contact": "Contact Link",
+      "moving": "Willing to Relocate?",
+      "deposit": "With Deposit",
+      "documents": "With Documentation",
+      "send": "Submit Form"
+    }
+  },
+  "CalculatorPage": {
+    "breadcrumbs": {
+      "first": "Jobs",
+      "second": "Calculator"
+    },
+    "form": {
+      "numberOfDeliveries": "Number of Deliveries per Day:",
+      "numberOfWorkingDays": "Number of Working Days per Month:",
+      "depositAmount": "Deposit Amount:",
+      "cashAmount": "Cash Amount:",
+      "moving": {
+        "title": "Willing to Relocate?",
+        "first": "Moscow",
+        "second": "Far East, Crimea, North Caucasus",
+        "third": "Other Cities"
+      },
+      "packingType": {
+        "title": "Packing Type",
+        "first": "Packing 1",
+        "second": "Packing 2",
+        "third": "Packing 3"
+      },
+      "sendingType": {
+        "title": "Shipping Type:",
+        "first": "By Horse",
+        "second": "By Pigeon"
+      },
+      "receiptType": {
+        "title": "How You Receive:",
+        "first": "In Hand",
+        "second": "By Mail"
+      },
+      "currency": "₽",
+      "quantity": "pcs",
+      "amountSum": "Total Amount",
+      "deliverySum": "Number of Deliveries",
+      "button": "Calculate"
+    }
+  },
+  "NotFound": {
+    "message": "404 - Page Not Found"
+  },
+  "PrivacyPolicyPage": {
+    "breadcrumbs": "Site Rules and Policies",
+    "heading": "Site Rules and Policies"
+  }
+}
+

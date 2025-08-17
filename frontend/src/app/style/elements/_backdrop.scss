@@ -1,0 +1,14 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  backdrop-filter: blur(3px);
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  pointer-events: none;
+  z-index: $ui-index-3;
+
+  &.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
